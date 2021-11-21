@@ -1,0 +1,129 @@
+# RP 1
+Hide RP1.Disconnected; #When NotConnected RP1.
+Blink RP1.Alarm When LSA1.1 And (Not LSA1.2);
+Show RP1.Level.2 When (Not LSA1.2);
+Show RP1.Level.1 When (Not LSA1.1) And LSA1.2;
+Show RP1.Level.0 When LSA1.1 And LSA1.2;
+Blink RP1.Level.Blink When LSA1.1;
+
+Show LSA1.2 When Not LSA1.2;
+Show LSA1.1 When Not LSA1.1;
+
+# RP 2 - nüüd on termokaitse.
+Blink RP2.Alarm When ISA2.1 Or ISA2.2 Or (LSA2.3 And ((Not LSA2.2) Or (Not LSA2.1))) Or (LSA2.2 And (Not LSA2.1));
+Blink RP2.Disconnected When NotConnected RP2.P1.RUNNING Or NotConnected  34;
+Blink ISA2.1.Blink When ISA2.1;
+
+Show LSA2.1 When LSA2.1;
+Show LSA2.2 When LSA2.2;
+Show LSA2.3 When LSA2.3;
+
+Blink RP2.Level.Blink When LSA2.3;
+Show RP2.Level.3 When LSA2.3;
+Show RP2.Level.2 When LSA2.2 And (Not LSA2.3);
+Show RP2.Level.1 When LSA2.1 And (Not LSA2.3) And (Not LSA2.2);
+Show RP2.Level.0 When (Not LSA2.1) And (Not LSA2.3) And (Not LSA2.2);
+
+Show RP2.P1.IsRunning When RP2.P1.RUNNING;
+Blink RP2.P1.Alarm When RP2.P1.PROTECT Or RP2.P1.LEAK Or (Not RP2.P1.TERM);
+Show RP2.P1.Remote When RP2.P1.AUTO And RP2.P1.REMOTE_CONTROL;
+Show RP2.P1.Manual When Not RP2.P1.AUTO;
+
+Show RP2.P2.IsRunning When RP2.P2.RUNNING;
+Blink RP2.P2.Alarm When RP2.P2.PROTECT Or RP2.P2.LEAK Or (Not RP2.P2.TERM);
+Show RP2.P2.Remote When RP2.P2.AUTO And RP2.P2.REMOTE_CONTROL;
+Show RP2.P2.Manual When Not RP2.P2.AUTO;
+
+
+# RP 3
+Blink RP3.Alarm When ISA3.1 Or ISA3.2 Or ISA3.3 Or ISA3.4 Or (LSA3.3 And ((Not LSA3.2) Or (Not LSA3.1))) Or (LSA3.2 And (Not LSA3.1));
+Blink RP3.Disconnected When NotConnected RP3.P1.RUNNING Or NotConnected LSA3.4;
+Blink ISA3.1.Blink When ISA3.1;
+
+Show LSA3.1 When LSA3.1;
+Show LSA3.2 When LSA3.2;
+Show LSA3.3 When LSA3.3;
+
+Blink RP3.Level.Blink When LSA3.3;
+Show RP3.Level.3 When LSA3.3;
+Show RP3.Level.2 When LSA3.2 And (Not LSA3.3);
+Show RP3.Level.1 When LSA3.1 And (Not LSA3.3) And (Not LSA3.2);
+Show RP3.Level.0 When (Not LSA3.1) And (Not LSA3.3) And (Not LSA3.2);
+
+Show RP3.P1.IsRunning When RP3.P1.RUNNING;
+Blink RP3.P1.Alarm When RP3.P1.PROTECT Or (Not RP3.P1.TERM);
+Show RP3.P1.Remote When RP3.P1.AUTO And RP3.P1.REMOTE_CONTROL;
+Show RP3.P1.Manual When Not RP3.P1.AUTO;
+
+Show RP3.P2.IsRunning When RP3.P2.RUNNING;
+Blink RP3.P2.Alarm When RP3.P2.PROTECT Or (Not RP3.P2.TERM);
+Show RP3.P2.Remote When RP3.P2.AUTO And RP3.P2.REMOTE_CONTROL;
+Show RP3.P2.Manual When Not RP3.P2.AUTO;
+
+# RP5
+Blink RP5.Alarm When ISA5.1 Or ISA5.2 Or (LSA5.4 And ((Not LSA5.3) Or (Not LSA5.2) Or (Not LSA5.1))) Or (LSA5.3 And ((Not LSA5.2) Or (Not LSA5.1))) Or (LSA5.2 And (Not LSA5.1));
+Blink RP5.Disconnected When NotConnected RP5.P1.RUNNING Or NotConnected RP5.P2.RUNNING;
+Blink ISA5.1.Blink When ISA5.1;
+
+Show LSA5.1 When LSA5.1;
+Show LSA5.2 When LSA5.2;
+Show LSA5.3 When LSA5.3;
+Show LSA5.4 When LSA5.4;
+
+Blink RP5.Level.Blink When LSA5.4;
+Show RP5.Level.4 When LSA5.4;
+Show RP5.Level.3 When LSA5.3 And (Not LSA5.4);
+Show RP5.Level.2 When LSA5.2 And (Not LSA5.4) And (Not LSA5.3);
+Show RP5.Level.1 When LSA5.1 And (Not LSA5.4) And (Not LSA5.3) And (Not LSA5.2);
+Show RP5.Level.0 When (Not LSA5.1) And (Not LSA5.4) And (Not LSA5.3) And (Not LSA5.2);
+
+Show RP5.P1.IsRunning When RP5.P1.RUNNING;
+Blink RP5.P1.Alarm When RP5.P1.PROTECT Or RP5.P1.LEAK Or (Not RP5.P1.TERM);
+Show RP5.P1.Remote When RP5.P1.AUTO And RP5.P1.REMOTE_CONTROL;
+Show RP5.P1.Manual When Not RP5.P1.AUTO;
+
+Show RP5.P2.IsRunning When RP5.P2.RUNNING;
+Blink RP5.P2.Alarm When RP5.P2.PROTECT Or RP5.P2.LEAK Or (Not RP5.P2.TERM);
+Show RP5.P2.Remote When RP5.P2.AUTO And RP5.P2.REMOTE_CONTROL;
+Show RP5.P2.Manual When Not RP5.P2.AUTO;
+
+
+# RP7
+Blink RP7.Alarm When ISA7.1 Or ISA7.2 Or (LSA7.2 And (Not LSA7.1));
+Blink RP7.Disconnected When NotConnected 701 Or NotConnected RP7.P1.RUNNING Or NotConnected RP7.TVS2;
+Blink ISA7.1.Blink When ISA7.1;
+
+Show LSA7.1 When LSA7.1;
+Show LSA7.2 When LSA7.2;
+
+Show RP7.Level.2 When LSA7.2;
+Show RP7.Level.1 When LSA7.1 And (Not LSA7.2);
+Show RP7.Level.0 When (Not LSA7.1) And (Not LSA7.2);
+Blink RP7.Level.Blink When (Not LSA7.1);
+
+Show RP7.P1.IsRunning When RP7.P1.RUNNING;
+Blink RP7.P1.Alarm When RP7.P1.PROTECT Or RP7.P1.LEAK Or (Not RP7.P1.TERM);
+Show RP7.P1.Remote When RP7.P1.AUTO And RP7.P1.REMOTE_CONTROL;
+Show RP7.P1.Manual When Not RP7.P1.AUTO;
+
+Show RP7.P2.IsRunning When RP7.P2.RUNNING;
+Blink RP7.P2.Alarm When RP7.P2.PROTECT Or RP7.P2.LEAK Or (Not RP7.P2.TERM);
+Show RP7.P2.Remote When RP7.P2.AUTO And RP7.P2.REMOTE_CONTROL;
+Show RP7.P2.Manual When Not RP7.P2.AUTO;
+
+Show RP7.P3.IsRunning When RP7.P3.RUNNING;
+Blink RP7.P3.Alarm When RP7.P3.PROTECT Or RP7.P3.LEAK Or (Not RP7.P3.TERM);
+Show RP7.P3.Remote When RP7.P3.AUTO And RP7.P3.REMOTE_CONTROL;
+Show RP7.P3.Manual When Not RP7.P3.AUTO;
+
+
+# M2
+Blink M2.Alarm When ISA7.3;
+Blink M2.Disconnected When NotConnected LSA7.3;
+Blink ISA7.3.Blink When ISA7.3;
+
+Show LSA7.3 When LSA7.3;
+
+Show M2.Level.1 When LSA7.3;
+Show M2.Level.0 When Not LSA7.3;
+

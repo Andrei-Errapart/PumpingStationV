@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="ControlPanel.WorkHoursPanelControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Name="Control"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Top" Foreground="Blue" Text="Töötunnid" />
+        <!-- CONTENTS -->
+        <ListView DockPanel.Dock="Top" ItemsSource="{Binding Path=SynchronizationStatus.WorkingTimes}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Pump" DisplayMemberBinding="{Binding Path=DisplayName}" />
+                    <GridViewColumn Header="Töötunnid" DisplayMemberBinding="{Binding Path=WorkingTime, StringFormat=\{0:d\\.hh\\:mm\\:ss\}}" />
+                    <GridViewColumn Header="Hooldus" DisplayMemberBinding="{Binding Path=OverhaulTime, StringFormat=\{0:d\\.hh\\:mm\\:ss\}}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+</UserControl>

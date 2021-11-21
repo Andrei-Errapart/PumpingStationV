@@ -1,0 +1,73 @@
+package communication;
+
+option java_package = "communication";
+option java_outer_classname = "PlcCommunication";
+option optimize_for = LITE_RUNTIME;
+
+/** Id-s in the range [TailId ... HeadId), i.e. TailId is inclusive and HeadId is exclusive.
+*/
+message IdRange {
+  optional int32 TailId = 1;
+  optional int32 HeadId = 2;
+}
+
+/** Message to the PLC. These are only queries. */
+message MessageToPlc {
+  /** Request Id. */
+  optional int32 Id = 16;
+
+  /** Set the value of the signal. */
+  message SignalAndValue {
+    /** Name of the signal to be set. */
+    optional string Name = 1;
+
+    /** Value to be set to. */
+    optional int32 Value = 2;
+  }
+
+  /** List of signals to be set. */
+  repeated SignalAndValue QuerySetSignals = 17;
+
+  /** Range of database ID-s to query. */
+  optional IdRange QueryRangeOfRows = 18;
+}
+
+/** Message from the PLC. These can be OOB messages or responses to the queries. */
+message MessageFromPlc {
+  /** Equals to the corresponding request Id, or unique OOB ID. */
+  optional int32 Id = 16;
+
+  message SignalValuesType {
+    optional int32 RowId = 1;
+    /** Configuration version. */
+    optional int32 Version = 2;
+    /** Timestamp, Java milliseconds. */
+    optional int64 TimeMs = 3;
+    /** Signal values. */
+    optional bytes SignalValues = 4;
+  }
+
+  message OOBConfigurationType {
+    /** Configuration version. */
+    optional int32 Version = 1;
+    /** Configuration file. */
+    optional bytes ConfigurationFile = 2;
+  }
+
+  message ResponseType {
+    optional bool OK = 1;
+    optional string Message = 2;
+  }
+
+  /** TODO: is it really needed? */
+  optional ResponseType Response = 17;
+  /** Out-of-band signal values. */
+  optional SignalValuesType OOBSignalValues = 18;
+  /** Out-of-band configuration. */
+  optional OOBConfigurationType OOBConfiguration = 19;
+  /** Out-of-band PLC database id range. */
+  optional IdRange OOBDatabaseRange = 20;
+  /** In response to the DatabaseQuery */
+  repeated SignalValuesType DatabaseSignalValues = 21;
+}
+

@@ -1,0 +1,242 @@
+﻿<Window x:Class="ControlPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:ControlPanel"
+        xmlns:hb="clr-namespace:HandyBox;assembly=HandyBox"
+        xmlns:utils="clr-namespace:CSUtils;assembly=CSUtils"
+        xmlns:win="clr-namespace:System.Windows;assembly=PresentationCore"
+        Title="Pumpla Juhtpaneel"
+        Height="350" Width="725"
+        Name="Window"
+        Loaded="Window_Loaded" Closing="Window_Closing">
+    <Window.Resources>
+        <utils:SelectOneOfTwo x:Key="InvertedVisibilityOf" ValueWhenTrue="{x:Static Member=win:Visibility.Collapsed}" ValueWhenFalse="{x:Static Member=win:Visibility.Visible}" />
+        <utils:SelectOneOfTwo x:Key="VisibilityOf" ValueWhenTrue="{x:Static Member=win:Visibility.Visible}" ValueWhenFalse="{x:Static Member=win:Visibility.Collapsed}" />
+    </Window.Resources>
+    <DockPanel >
+        <Grid>            
+        <TabControl TabStripPlacement="Left" FontSize="18" Name="tabcontrolMain">
+            <TabItem Header="Tööpõld">
+                <DockPanel>
+                    <!-- Main Stuff -->
+                    <Grid DockPanel.Dock="Top">
+                        <Viewbox DockPanel.Dock="Bottom" Stretch="Uniform">
+                            <Canvas Name="mainCanvas" Width="1052" Height="744">
+                                <Image Name="imageSCADA" Width="1052" Height="744" >
+                                    <Image.Source>
+                                        <DrawingImage x:Name="drawingimageScada">
+                                        </DrawingImage>
+                                    </Image.Source>
+                                </Image>
+                            </Canvas>
+                        </Viewbox>
+
+                        <TextBlock Text="Side puudub!" FontSize="36" Foreground="Red" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="{Binding Path=IsConnected, Converter={StaticResource InvertedVisibilityOf}}" />
+                    </Grid>
+
+                    <TabControl DockPanel.Dock="Bottom" Name="tabGroupDetails" TabStripPlacement="Bottom"  SelectionChanged="TabControl_InfoPanel_SelectionChanged">
+                    </TabControl>
+                </DockPanel>
+            </TabItem>
+
+            <!-- CHARTS -->
+            <TabItem Header="Graafikud" HorizontalAlignment="Stretch">
+                <TabControl Name="tabcontrolCharts" TabStripPlacement="Bottom" />
+            </TabItem>
+
+            <TabItem Header="Signaalid" Visibility="{Binding Path=LocalConfiguration.IsDebug, Converter={StaticResource VisibilityOf}}" >
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Foreground="Blue" Text="Vaata ja muuda signaale ja muutujaid" />
+                    <ListView DockPanel.Dock="Top" ItemsSource="{Binding Path=Signals}" >
+                        <ListView.Resources>
+                            <Style TargetType="Button">
+                                <Setter Property="Control.MinWidth" Value="25" />
+                                <Setter Property="Control.Margin" Value="5,5,0,0" />
+                                <Setter Property="Control.Focusable" Value="False" />
+                            </Style>
+                        </ListView.Resources>
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="{x:Type ListViewItem}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding DisplayIsConnected}" Value="false">
+                                        <Setter Property="Background" Value="Red" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Id">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Path=DisplayId}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Nimi">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Path=Name}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <!--
+                                <GridViewColumn Header="Type">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Path=Type}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                -->
+                                <GridViewColumn Header="Seade/Viik">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Path=DisplayDevicePin}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+
+                                <GridViewColumn Header="Kirjeldus">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Path=Description}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+
+                                <GridViewColumn Header="Lugem">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Path=DisplayReading}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+
+                                <GridViewColumn Header="Väärtus">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Path=DisplayValue}" Padding="5" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+
+                                <GridViewColumn Header="Tegevused">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <Button Content="Aktiveeri" IsEnabled="{Binding Path=CanWrite}" Click="Button_SetTo1_Click" Tag="{Binding}" />
+                                                <Button Content="Nulli" IsEnabled="{Binding Path=CanWrite}" Click="Button_SetTo0_Click" Tag="{Binding}" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </DockPanel>
+            </TabItem>
+
+            <!-- CONFIGURATION -->
+            <TabItem Header="Seadistused">
+                <TabItem.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Control.Padding" Value="5" />
+                        <Setter Property="Control.Margin" Value="5" />
+                        <Setter Property="Control.MinWidth" Value="100" />
+                        <Setter Property="Control.Focusable" Value="False" />
+                    </Style>
+                </TabItem.Resources>
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Foreground="Blue" Text="Muuda programmi seadistusi" />
+                    
+                    <!-- Setup parameters -->
+                    <Grid DockPanel.Dock="Top" VerticalAlignment="Top" HorizontalAlignment="Left" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"  />
+                            <ColumnDefinition Width="Auto"  />
+                        </Grid.ColumnDefinitions>
+                        
+                        <!-- HEADER -->
+                        <!-- STUFF -->
+                        <!-- PLC CONNECTION -->
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Side PLC-ga:" />
+                        <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding ElementName=Window, Path=CopyOfConfiguration.PlcConnection}" MinWidth="200" />
+
+                        <!-- SHALL WE PLAY BEEP? -->
+                        <CheckBox Grid.Row="1" Grid.Column="0" Content="Helialarm" IsChecked="{Binding ElementName=Window, Path=CopyOfConfiguration.IsAudibleAlarmEnabled}" />
+                    </Grid>
+                    
+                    <!-- Action buttons -->
+                    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" VerticalAlignment="Top" >
+                        <Button Content="Katseta" Click="Button_Test_Configuration" />
+                        <Button Content="Rakenda" Click="Button_Apply_Configuration" />
+                    </StackPanel>
+                </DockPanel>
+            </TabItem>
+
+            <TabItem Header="Süsteemne log" Visibility="{Binding Path=LocalConfiguration.IsDebug, Converter={StaticResource VisibilityOf}}" >
+                <hb:TextboxLogControl Name="textboxLog">
+                    
+                </hb:TextboxLogControl>
+            </TabItem>
+
+            <TabItem Header="Töötunnid">
+                    <local:WorkHoursPanelControl x:Name="workhourspanelControl" DataContext="{Binding}" />
+            </TabItem>
+
+            <TabItem Header="Ajalugu" HorizontalAlignment="Stretch">
+                <DockPanel>
+                    <!-- SYNCHRONIZING ... -->
+                    <DockPanel HorizontalAlignment="Stretch" DockPanel.Dock="Top" Visibility="{Binding Path=SynchronizationStatus.IsFinished, Converter={StaticResource InvertedVisibilityOf}}">
+                        <DockPanel.Resources>
+                            <Style TargetType="TextBox">
+                                <Setter Property="TextBox.Width" Value="100" />
+                                <Setter Property="TextBox.HorizontalAlignment" Value="Left" />
+                            </Style>
+                        </DockPanel.Resources>
+                        <TextBlock DockPanel.Dock="Top" Foreground="Blue" Text="Sünkroniseerimine käib" />
+                        <TextBlock DockPanel.Dock="Top" Text="Sünkroniseerimise lõppedes on võimalik ajalugu salvestada." />
+                        <hb:AutoGrid DockPanel.Dock="Top" Columns="2" HorizontalAlignment="Stretch">
+                            <hb:AutoGrid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*"/>
+                            </hb:AutoGrid.ColumnDefinitions>
+                            <!-- TAIL ID -->
+                            <TextBlock Text="Esimene:" />
+                            <TextBox IsReadOnly="True" Text="{Binding Path=SynchronizationStatus.RemoteTailId}" Width="100" />
+
+                            <!-- HEAD ID -->
+                            <TextBlock Text="Viimane:" />
+                            <TextBox IsReadOnly="True" Text="{Binding Path=SynchronizationStatus.RemoteHeadId}" Width="100" />
+
+                            <!-- TRACK ID -->
+                            <TextBlock Text="Jooksev:" />
+                            <TextBox IsReadOnly="True" Text="{Binding Path=SynchronizationStatus.LocalTrackId}" Width="100" />
+
+                            <TextBlock Text="Sünkroniseerimine:" />
+                            <ProgressBar HorizontalAlignment="Stretch"
+                                     Value="{Binding Path=SynchronizationStatus.LocalTrackId}" Minimum="{Binding Path=SynchronizationStatus.RemoteTailId}" Maximum="{Binding Path=SynchronizationStatus.RemoteHeadId}" />
+                        </hb:AutoGrid>
+                    </DockPanel>
+                    
+                    <!-- HISTORY EXPORT -->
+                    <local:HistoryControl HorizontalAlignment="Stretch" DockPanel.Dock="Top"
+                                          x:Name="historycontrol"
+                                          Visibility="{Binding Path=SynchronizationStatus.IsFinished, Converter={StaticResource VisibilityOf}}" 
+                                          DataContext="{Binding}"
+                                          />
+                </DockPanel>
+            </TabItem>
+            
+        </TabControl>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Bottom" Content="Trüki" FontSize="18" Padding="5" Margin="5" 
+                Click="ButtonPrint_Click"
+                />
+        </Grid>
+    </DockPanel>
+</Window>

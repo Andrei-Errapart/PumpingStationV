@@ -1,0 +1,2697 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <DrawingGroup x:Name="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,1030,370" />
+    </DrawingGroup.ClipGeometry>
+    <DrawingGroup x:Name="layer1" Transform="1,0,0,1,0,-682.36218">
+      <GeometryDrawing x:Name="rect3836" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="84.0564,841.3782,101.6071,3.5714" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3149">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,-162.22974,270.81719" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-162.22974,270.81719" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text3151">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="48.119678,708.20471" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="RP1" GlyphIndices="53 51 20" AdvanceWidths="7.176 6.72 6.468" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path3923">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,-162.73482,304.6573" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-162.73482,304.6573" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text3929">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="27.678949,808.84058" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA1.1" GlyphIndices="47 54 36 20 17 20" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3933">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="28.184017,775.00049" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA1.2" GlyphIndices="47 54 36 20 17 21" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3937">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="186.37779,738.16388" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6" Characters="BIOTIIK" GlyphIndices="37 44 50 55 44 44 46" AdvanceWidths="6.876 3.192 9.048 6.288 3.192 3.192 6.96" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3941">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="397.09207,708.87811" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="RP5" GlyphIndices="53 51 24" AdvanceWidths="7.176 6.72 6.468" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3945">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="496.02066,743.521" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15" Characters="ÜHTLUSTUSBASSEIN" GlyphIndices="104 43 55 47 56 54 55 56 54 37 36 54 54 40 44 49" AdvanceWidths="8.244 8.52 6.288 5.652 8.244 6.372 6.288 8.244 6.372 6.876 7.74 6.372 6.372 6.072 3.192 8.976" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3949">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="865.30634,707.80676" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="RP7" GlyphIndices="53 51 26" AdvanceWidths="7.176 6.72 6.468" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3953">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="63.693859,886.60742" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="RP2" GlyphIndices="53 51 21" AdvanceWidths="7.176 6.72 6.468" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3957">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="720.0863,887.97144" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="RP3" GlyphIndices="53 51 22" AdvanceWidths="7.176 6.72 6.468" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text3961">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="866.02063,886.73529" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="M2" GlyphIndices="48 21" AdvanceWidths="10.776 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path3981">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,270.46808,266.74012" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.46808,266.74012" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3999">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,270.46808,289.06483" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.46808,289.06483" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4001">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,270.46808,313.89481" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.46808,313.89481" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4005">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="408.52722,770.74689" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA5.4" GlyphIndices="47 54 36 24 17 23" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4009">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="408.52722,794.14301" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA5.3" GlyphIndices="47 54 36 24 17 22" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4013">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="409.24149,817.90155" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA5.2" GlyphIndices="47 54 36 24 17 21" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4017">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="408.98318,841.14349" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA5.1" GlyphIndices="47 54 36 24 17 20" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4021">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="388.16351,736.73529" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="ISA5.1" GlyphIndices="44 54 36 24 17 20" AdvanceWidths="3.192 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4025">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,243.31866,232.72854" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,243.31866,232.72854" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4027">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="376.33707,834.98248" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P2" GlyphIndices="51 21" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4031">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="376.33701,857.12531" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P1" GlyphIndices="51 20" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4051">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,673.67581,228.44282" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,673.67581,228.44282" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4053">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,643.45836,312.56694" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,643.45836,312.56694" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4055">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,644.07381,334.92192" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,644.07381,334.92192" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4057">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="862.44922,732.44958" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="ISA7.1" GlyphIndices="44 54 36 26 17 20" AdvanceWidths="3.192 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4061">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="833.30322,816.57367" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA7.2" GlyphIndices="47 54 36 26 17 21" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4069">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,709.3901,408.44282" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,709.3901,408.44282" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4103">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,722.50305,452.34682" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,722.50305,452.34682" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4107">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="853.52069,912.44958" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="ISA7.3" GlyphIndices="44 54 36 26 17 22" AdvanceWidths="3.192 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4111">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="861.99072,956.71075" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA7.3" GlyphIndices="47 54 36 26 17 22" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4119">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,567.02717,409.32184" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,567.02717,409.32184" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4121">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,597.13257,448.29519" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,597.13257,448.29519" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4123">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,596.6298,475.94938" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,596.6298,475.94938" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4125">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,597.09963,502.89454" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,597.09963,502.89454" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4127">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="712.5863,912.97144" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="ISA3.1" GlyphIndices="44 54 36 22 17 20" AdvanceWidths="3.192 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4131">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="737.33453,952.65912" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA3.3" GlyphIndices="47 54 36 22 17 22" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4135">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="736.83173,979.95618" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA3.2" GlyphIndices="47 54 36 22 17 21" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4139">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="739.08734,1006.5442" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA3.1" GlyphIndices="47 54 36 22 17 20" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4159">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,-128.29386,407.8142" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-128.29386,407.8142" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4161">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,-163.04401,448.86063" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-163.04401,448.86063" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4163">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,-163.04401,474.57492" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-163.04401,474.57492" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4165">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,-162.68687,499.57492" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-162.68687,499.57492" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4167">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="60.836712,911.96454" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="ISA2.1" GlyphIndices="44 54 36 21 17 20" AdvanceWidths="3.192 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4179">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="28.586559,1003.3682" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA2.1" GlyphIndices="47 54 36 21 17 20" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4187">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1.1818182,0,0,1.1818182,187.74541,227.54039" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4199">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="-1.1818182,0,0,1.1818182,273.90884,382.10583" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4205">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="-1.1818182,0,0,1.1818182,274.26598,402.98599" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4209">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="74.084473,1011.4647" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P1" GlyphIndices="51 20" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4213">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="74.084473,1032.4496" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P2" GlyphIndices="51 21" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4219">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1.1818182,0,0,1.1818182,188.25049,207.04148" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4225">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1.1818182,0,0,1.1818182,545.41213,386.57973" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4231">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1.1818182,0,0,1.1818182,544.69784,407.29402" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4237">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="-1.1818182,0,0,1.1818182,1094.2014,224.15139" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4243">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="-1.1818182,0,0,1.1818182,1094.2014,202.72282" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4249">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="-1.1818182,0,0,1.1818182,1094.2014,181.29425" Figures="M156.42857,528.73737A7.8571429,7.8571429,0,1,1,140.71428,528.73737A7.8571429,7.8571429,0,1,1,156.42857,528.73737z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4253">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="891.4762,809.94958" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P3" GlyphIndices="51 22" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4257">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="891.11902,831.021" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P2" GlyphIndices="51 21" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4261">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="891.11908,853.16388" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P1" GlyphIndices="51 20" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4265">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="731.71295,1015.9494" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P1" GlyphIndices="51 20" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4269">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="731.71295,1036.6636" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="P2" GlyphIndices="51 21" AdvanceWidths="6.72 6.468" GlyphOffsets="0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="rect3184">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="678.3752,1013.8295,16.415,16.415" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3957" Brush="#FF000000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M686.50488,1021.9969L678.67593,1014.1676 686.59732,1014.1676 694.5187,1014.1676 694.4876,1015.9359C694.4704,1016.9084 694.4425,1020.0967 694.4253,1023.021 694.4081,1025.9453 694.3806,1028.6728 694.364,1029.0821L694.3338,1029.8263 686.50487,1021.9969z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3967" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M79.030731,847.35234C72.860651,843.6848 72.672061,843.55465 73.099091,843.2586 73.341671,843.09042 76.231621,841.06195 79.521221,838.75088L85.502281,834.54893 85.502281,842.84685C85.502281,847.41071 85.479981,851.14377 85.452881,851.14254 85.425681,851.14154 82.535731,849.43572 79.030751,847.35234z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3971">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF0000FF" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M192.82356,848.42377C198.99364,844.75623 199.18223,844.62608 198.7552,844.33003 198.51262,844.16185 195.62267,842.13338 192.33307,839.82231L186.35201,835.62036 186.35201,843.91828C186.35201,848.48214 186.37431,852.2152 186.40141,852.21397 186.42861,852.21297 189.31856,850.50715 192.82354,848.42377z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3974" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M247.42359,847.88805C241.25351,844.22051 241.06492,844.09036 241.49195,843.79431 241.73453,843.62613 244.62448,841.59766 247.91408,839.28659L253.89514,835.08464 253.89514,843.38256C253.89514,847.94642 253.87284,851.67948 253.84574,851.67825 253.81854,851.67725 250.92859,849.97143 247.42361,847.88805z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3976" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="337.7103,850.8754,15.7696,3.5714" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3979" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="253.3421,841.7354,84.7009,3.5714" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3981">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="0,-1,1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-854.4832,336.6176,24.1071,3.5714" Transform="0,-1,1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3983" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="338.0675,830.3397,15.7696,3.5714" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3985">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFBA7008" Thickness="1.1395098" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M490.15843,754.61713L526.95411,866.91555 607.94071,866.10162 644.13826,754.61501 638.46329,754.59241 603.46405,860.81101 531.83772,860.40404 496.31233,754.59241z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3987" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M455.8455,853.54268C449.67542,849.87514 449.48683,849.74499 449.91386,849.44894 450.15644,849.28076 453.04639,847.25229 456.33599,844.94122L462.31705,840.73927 462.31705,849.03719C462.31705,853.60105 462.29475,857.33411 462.26765,857.33288 462.24045,857.33188 459.3505,855.62606 455.84552,853.54268z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3990" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="460.7914,847.7142,73.7013,3.5714" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3992">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF0000FF" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M540.45935,853.64499C546.62943,849.97745 546.81802,849.8473 546.39099,849.55125 546.14841,849.38307 543.25846,847.3546 539.96886,845.04353L533.9878,840.84158 533.9878,849.1395C533.9878,853.70336 534.0101,857.43642 534.0372,857.43519 534.0644,857.43419 536.95435,855.72837 540.45933,853.64499z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3994" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M827.86392,847.77529C834.034,844.10775 834.22259,843.9776 833.79556,843.68155 833.55298,843.51337 830.66303,841.4849 827.37343,839.17383L821.39237,834.97188 821.39237,843.2698C821.39237,847.83366 821.41467,851.56672 821.44177,851.56549 821.46897,851.56449 824.35892,849.85867 827.8639,847.77529z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3996">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-821.992,842.2404,219.0992,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3998">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FF0000FF" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M596.92622,848.17123C590.75614,844.50369 590.56755,844.37354 590.99458,844.07749 591.23716,843.90931 594.12711,841.88084 597.41671,839.56977L603.39777,835.36782 603.39777,843.66574C603.39777,848.2296 603.37547,851.96266 603.34837,851.96143 603.32117,851.96043 600.43122,850.25461 596.92624,848.17123z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="g4023" Transform="1,0,0,1,3.5355333,105.3084">
+        <GeometryDrawing x:Name="path4013" Brush="#FFFF0000">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFFF0000" Thickness="1.18181825" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M992.6875,642.92395L974.1875,642.92395C974.2421,637.84254 978.34315,633.73645 983.4375,633.73645 988.53185,633.73645 992.63286,637.84254 992.6875,642.92395z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4002">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFFF0000" Thickness="1.18181825" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M983.4375,652.29895C978.30914,652.29895 974.15625,648.14606 974.15625,643.0177 974.15625,642.9837 974.18715,642.9579 974.18745,642.924L992.68745,642.924C992.68781,642.9579 992.71865,642.9837 992.71865,643.0177 992.71865,648.14606 988.56576,652.29895 983.4374,652.29895z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4015">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFFF0000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,308.2677" Figures="M983.50977,326.14387L983.50977,314.65338" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4017">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFFF0000" Thickness="1.29019344" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M992.47206,622.60542L973.34515,622.60542" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4019">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="953.07886,709.16284" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6 7 8" Characters="TULETÕRJE" GlyphIndices="55 56 47 40 55 175 53 45 40" AdvanceWidths="6.288 8.244 5.652 6.072 6.288 9.048 7.176 4.284 6.072" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="953.07886,724.16284" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6" Characters="HÜDRANT" GlyphIndices="43 104 39 53 36 49 55" AdvanceWidths="8.52 8.244 8.412 7.176 7.74 8.976 6.288" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4032" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M990.59486,763.88447C986.92736,757.71439 986.79716,757.5258 986.50116,757.95283 986.33296,758.19541 984.30446,761.08536 981.99339,764.37496L977.79144,770.35602 986.08936,770.35602C990.65326,770.35602 994.38626,770.33372 994.38506,770.30662 994.38406,770.27942 992.67826,767.38947 990.59486,763.88449z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4034">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-988.1829,804.6122,59.9112,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4036">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="769.8138,984.6786,37.8131,3.5714" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4038" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M903.29831,1033.4364C897.12824,1029.7689 896.93964,1029.6387 897.36664,1029.3427 897.60924,1029.1745 900.4992,1027.146 903.7888,1024.835L909.76986,1020.633 909.76986,1028.9309C909.76986,1033.4948 909.74756,1037.2279 909.72046,1037.2266 909.69326,1037.2256 906.80331,1035.5198 903.29833,1033.4364z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4040">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-988.1829,847.8265,59.9112,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4042">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-987.8259,1027.8265,78.7089,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4044">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="847.6709,984.6786,183.8845,3.5714" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4046">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-124.4242,1026.1852,15.7696,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4048">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-560.03,1016.4917,435.3063,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4050">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="0,-1,-1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-1029.793,-125.517,24.1071,3.5714" Transform="0,-1,-1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4052">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-124.0671,1005.6495,15.7696,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4054" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M554.49649,850.25253C558.16403,844.08245 558.29418,843.89386 558.59023,844.32089 558.75841,844.56347 560.78688,847.45342 563.09795,850.74302L567.2999,856.72408 559.00198,856.72408C554.43812,856.72408 550.70506,856.70178 550.70629,856.67468 550.70729,856.64748 552.41311,853.75753 554.49649,850.25255z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4056">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="855.7521,556.879,163.934,3.5714" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4058" Brush="#FF0000FF">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M577.22492,850.25253C580.89246,844.08245 581.02261,843.89386 581.31866,844.32089 581.48684,844.56347 583.51531,847.45342 585.82638,850.74302L590.02833,856.72408 581.73041,856.72408C577.16655,856.72408 573.43349,856.70178 573.43472,856.67468 573.43572,856.64748 575.14154,853.75753 577.22492,850.25255z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4060">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="855.7521,579.6075,168.2271,3.5714" Transform="0,1,1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4062">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-710.3363,1030.6824,9.9612,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4064">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="0,-1,-1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-1034.0377,-704.1055,24.1071,3.5714" Transform="0,-1,-1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4068">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-703.7703,1019.8233,8.1934,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4070">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-710.8414,1009.9743,9.9612,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4072">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF0000FF" Opacity="1" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-677.9398,1020.9052,98.4664,3.5714" Transform="-1,0,0,1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text4074">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="677.59888,1005.4247" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LQI3.1" GlyphIndices="47 52 44 22 17 20" AdvanceWidths="5.652 9.048 3.192 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4200">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="834.52838,838.50098" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA7.1" GlyphIndices="47 54 36 26 17 20" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4175">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="28.229416,978.36816" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA2.2" GlyphIndices="47 54 36 21 17 21" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <DrawingGroup x:Name="text4171">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="28.586559,952.65387" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5" Characters="LSA2.3" GlyphIndices="47 54 36 21 17 22" AdvanceWidths="5.652 6.372 7.74 6.468 2.604 6.468" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path4337">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF009600" Opacity="1" Transform="1,0,0,1,270.56692,337.13677" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.56692,337.13677" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4509">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFBA7008" Thickness="1.1395098" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M142.75977,753.64704L179.55545,865.94544 260.54205,865.13154 296.7396,753.64492 291.06463,753.62232 256.06539,859.84094 184.43906,859.43394 148.91367,753.62232z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="g3965" Transform="2.8972775,0,0,2.3490819,-517.01143,-893.14282">
+        <GeometryDrawing x:Name="rect3967">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="181.0517,695.9031,31.0234,54.459" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect3969">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="183.6223,698.6981,26.0617,49.294" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect3971">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="185.6556,683.5307,22.2103,3.7918" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3973">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M187.37368,695.7489L187.37368,687.11198" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3975">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M188.63762,695.80157L188.63762,687.16464" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3977">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M204.85829,695.85423L204.85829,687.21731" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path3979">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M206.22757,695.9069L206.22757,687.26997" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g4432">
+        <GeometryDrawing x:Name="rect4145">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.55284619" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="8.617,918.7334,127.3821,127.9286" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4147">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.5974195" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="16.0647,925.2991,113.2409,115.7956" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4149">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.1291,889.8989,64.3495,8.9074" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4151">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M47.106729,918.60049L47.106729,898.31166" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4153">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M50.768714,918.72421L50.768714,898.43536" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4155">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M97.764496,918.84792L97.764496,898.55908" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4157">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M101.73168,918.97164L101.73168,898.68279" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g4665" Transform="1,0,0,1,660.43091,2.3945">
+        <GeometryDrawing x:Name="rect4667">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.55284619" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="8.617,918.7334,127.3821,127.9286" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4669">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.5974195" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="16.0647,925.2991,113.2409,115.7956" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4671">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.1291,889.8989,64.3495,8.9074" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4673">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M47.106729,918.60049L47.106729,898.31166" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4675">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M50.768714,918.72421L50.768714,898.43536" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4677">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M97.764496,918.84792L97.764496,898.55908" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4679">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M101.73168,918.97164L101.73168,898.68279" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g4441" Transform="1,0,0,1,334.97626,-177.22667">
+        <GeometryDrawing x:Name="rect4443">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.55284619" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="8.617,918.7334,127.3821,127.9286" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4445">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.5974195" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="16.0647,925.2991,113.2409,115.7956" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4447">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.1291,889.8989,64.3495,8.9074" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4449">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M47.106729,918.60049L47.106729,898.31166" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4451">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M50.768714,918.72421L50.768714,898.43536" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4453">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M97.764496,918.84792L97.764496,898.55908" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4455">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M101.73168,918.97164L101.73168,898.68279" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g4792" Transform="1,0,0,1,802.78946,-178.93499">
+        <GeometryDrawing x:Name="rect4794">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.55284619" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="8.617,918.7334,127.3821,127.9286" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4796">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.5974195" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="16.0647,925.2991,113.2409,115.7956" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4798">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.1291,889.8989,64.3495,8.9074" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4800">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M47.106729,918.60049L47.106729,898.31166" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4802">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M50.768714,918.72421L50.768714,898.43536" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4804">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M97.764496,918.84792L97.764496,898.55908" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4806">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="1.30440998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M101.73168,918.97164L101.73168,898.68279" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="g4087" Transform="2.8972775,0,0,2.3490819,306.20284,-715.99992">
+        <GeometryDrawing x:Name="rect4089">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="181.0517,695.9031,31.0234,54.459" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4091">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="183.6223,698.6981,26.0617,49.294" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4093">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="185.6556,683.5307,22.2103,3.7918" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4095">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M187.37368,695.7489L187.37368,687.11198" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4097">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M188.63762,695.80157L188.63762,687.16464" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4099">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M204.85829,695.85423L204.85829,687.21731" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path4101">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFBA7008" Thickness="0.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M206.22757,695.9069L206.22757,687.26997" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer68">
+      <GeometryDrawing x:Name="path4547">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,709.3901,-273.91936" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,709.3901,-273.91936" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer67">
+      <GeometryDrawing x:Name="path4543">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,673.67581,-453.91936" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,673.67581,-453.91936" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer66">
+      <GeometryDrawing x:Name="path4539">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,243.31866,-449.63364" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,243.31866,-449.63364" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer65">
+      <GeometryDrawing x:Name="path4535">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,567.02717,-273.04034" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,567.02717,-273.04034" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer64">
+      <GeometryDrawing x:Name="path4531">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,-128.29386,-274.54798" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-128.29386,-274.54798" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer63">
+      <GeometryDrawing x:Name="path4561">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M848.20157,339.90972C843.33864,339.82872 843.15754,348.64702 838.63907,348.56592 838.57787,348.56492 838.45526,348.56672 838.38907,348.56592L838.38907,358.40972 913.88907,358.40972 913.88907,348.72222C913.57023,348.70822 913.36188,348.70522 912.98282,348.69122 908.54539,348.52912 909.2139,340.07202 904.10782,339.90992 899.40936,339.76082 899.9141,349.15992 894.88907,349.15992 889.86404,349.15992 890.83205,339.90992 885.48282,339.90992 880.1336,339.90992 881.58205,349.00372 876.23282,349.00372 870.8836,349.00372 871.877,339.90992 867.01407,339.90992 862.15114,339.90992 861.8028,349.00372 857.26407,349.00372 852.72533,349.00372 854.03852,340.00722 848.20157,339.90992z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer51">
+      <GeometryDrawing x:Name="rect4458">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FA" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="838.5629,270.7387,75.1911,87.3408" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4448">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M847.97233,252.33973C843.1094,252.25873 842.9283,261.07703 838.40983,260.99593 838.34863,260.99493 838.22602,260.99673 838.15983,260.99593L838.15983,270.83973 913.65983,270.83973 913.65983,261.15223C913.34099,261.13823 913.13264,261.13523 912.75358,261.12123 908.31615,260.95913 908.98466,252.50203 903.87858,252.33993 899.18012,252.19083 899.68486,261.58993 894.65983,261.58993 889.6348,261.58993 890.60281,252.33993 885.25358,252.33993 879.90436,252.33993 881.35281,261.43373 876.00358,261.43373 870.65436,261.43373 871.64776,252.33993 866.78483,252.33993 861.9219,252.33993 861.57356,261.43373 857.03483,261.43373 852.49609,261.43373 853.80928,252.43723 847.97233,252.33993z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer52">
+      <GeometryDrawing x:Name="path4024">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M829.20896,365.83311L922.26926,365.83311 922.26926,234.63956 905.34921,234.63956 905.34921,217.71951 910.14743,217.71951 910.14743,205.59768 842.59348,205.59768 842.59348,217.71951 847.51797,217.71951 847.51797,234.63956 829.4615,234.76583z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer53">
+      <GeometryDrawing x:Name="path3221">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M945.32948,230.17132L886.94018,286.04034 834.54946,231.28626 824.68244,240.72739 877.07316,295.48147 817.96132,352.04185 827.38085,361.88629 886.49269,305.32592 946.55297,368.09556 956.41999,358.65442 896.35971,295.88479 954.74901,240.01577 945.32948,230.17132z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer49">
+      <GeometryDrawing x:Name="rect4649">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.03921569" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+            <Pen.Brush>
+              <SolidColorBrush Color="#FF000000" Opacity="0.07843137" />
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="4.8629" RadiusY="4.8629" Rect="825.9586,192.1994,99.3937,177.9412" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer61">
+      <GeometryDrawing x:Name="path4410">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M835.70954,842.95968C830.84661,842.95968 830.49827,852.05348 825.95954,852.05348 822.01109,852.05348 822.51697,845.23218 818.86579,843.39718L818.86579,861.45968 863.70954,861.45968 863.70954,861.49068 932.11579,861.49068 932.11579,844.17818C931.43081,843.50098 930.56691,843.05808 929.42829,843.02188 924.72983,842.87268 925.23457,852.27188 920.20954,852.27188 915.18451,852.27188 916.15252,843.02188 910.80329,843.02188 905.45407,843.02188 906.90252,852.11568 901.55329,852.11568 896.20407,852.11568 897.19747,843.02188 892.33454,843.02188 887.47161,843.02188 888.49871,852.17298 882.58454,852.11568 877.74155,852.02868 879.76839,842.96268 873.52204,843.02188 868.65822,843.01088 868.92303,852.23748 863.70954,852.20938 859.36894,852.08338 859.6094,843.13258 854.17829,842.95938 848.82907,842.95938 850.27752,852.05318 844.92829,852.05318 839.57907,852.05318 840.57247,842.95938 835.70954,842.95938z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer46">
+      <GeometryDrawing x:Name="rect4441">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="818.3896,154.5137,113.7037,25.4458" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4413">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M835.4803,136.06873C830.61737,136.06873 830.26903,145.16253 825.7303,145.16253 821.78185,145.16253 822.28773,138.34123 818.63655,136.50623L818.63655,154.56873 863.4803,154.56873 863.4803,154.59973 931.88655,154.59973 931.88655,137.28723C931.20157,136.61003 930.33767,136.16713 929.19905,136.13093 924.50059,135.98173 925.00533,145.38093 919.9803,145.38093 914.95527,145.38093 915.92328,136.13093 910.57405,136.13093 905.22483,136.13093 906.67328,145.22473 901.32405,145.22473 895.97483,145.22473 896.96823,136.13093 892.1053,136.13093 887.24237,136.13093 888.26947,145.28203 882.3553,145.22473 877.51231,145.13773 879.53915,136.07173 873.2928,136.13093 868.42898,136.11993 868.69379,145.34653 863.4803,145.31843 859.1397,145.19243 859.38016,136.24163 853.94905,136.06843 848.59983,136.06843 850.04828,145.16223 844.69905,145.16223 839.34983,145.16223 840.34323,136.06843 835.4803,136.06843z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer48">
+      <GeometryDrawing x:Name="rect4444">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="1.1462" RadiusY="1.1462" Rect="819.3066,88.0338,112.5572,91.6963" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4416">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M835.48029,69.588896C830.61736,69.588896 830.26902,78.682696 825.73029,78.682696 821.78184,78.682696 822.28772,71.861396 818.63654,70.026396L818.63654,88.088896 863.48029,88.088896 863.48029,88.119896 931.88654,88.119896 931.88654,70.807396C931.20156,70.130196 930.33766,69.687296 929.19904,69.651096 924.50058,69.501896 925.00532,78.901096 919.98029,78.901096 914.95526,78.901096 915.92327,69.651096 910.57404,69.651096 905.22482,69.651096 906.67327,78.744896 901.32404,78.744896 895.97482,78.744896 896.96822,69.651096 892.10529,69.651096 887.24236,69.651096 888.26946,78.802196 882.35529,78.744896 877.5123,78.657896 879.53914,69.591896 873.29279,69.651096 868.42897,69.640096 868.69378,78.866696 863.48029,78.838596 859.13969,78.712596 859.38015,69.761796 853.94904,69.588596 848.59982,69.588596 850.04827,78.682396 844.69904,78.682396 839.34982,78.682396 840.34322,69.588596 835.48029,69.588596z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer62">
+      <GeometryDrawing x:Name="path4599">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="0.78431373" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M835.70954,842.95968C830.84661,842.95968 830.49827,852.05348 825.95954,852.05348 822.01109,852.05348 822.51697,845.23218 818.86579,843.39718L818.86579,861.45968 863.70954,861.45968 863.70954,861.49068 932.11579,861.49068 932.11579,844.17818C931.43081,843.50098 930.56691,843.05808 929.42829,843.02188 924.72983,842.87268 925.23457,852.27188 920.20954,852.27188 915.18451,852.27188 916.15252,843.02188 910.80329,843.02188 905.45407,843.02188 906.90252,852.11568 901.55329,852.11568 896.20407,852.11568 897.19747,843.02188 892.33454,843.02188 887.47161,843.02188 888.49871,852.17298 882.58454,852.11568 877.74155,852.02868 879.76839,842.96268 873.52204,843.02188 868.65822,843.01088 868.92303,852.23748 863.70954,852.20938 859.36894,852.08338 859.6094,843.13258 854.17829,842.95938 848.82907,842.95938 850.27752,852.05318 844.92829,852.05318 839.57907,852.05318 840.57247,842.95938 835.70954,842.95938z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer100">
+      <DrawingGroup x:Name="text4262">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="875.00354,126.52921" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer101">
+      <DrawingGroup x:Name="text4218">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="875.00348,126.52922" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer26">
+      <GeometryDrawing x:Name="path4197" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M921.34973,128.06268C927.51981,124.39514 927.7084,124.26499 927.28137,123.96894 927.03879,123.80076 924.14884,121.77229 920.85924,119.46122L914.87818,115.25927 914.87818,123.55719C914.87818,128.12105 914.90048,131.85411 914.92758,131.85288 914.95478,131.85188 917.84473,130.14606 921.34971,128.06268z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer25">
+      <GeometryDrawing x:Name="path4251" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M921.34973,128.06268C927.51981,124.39514 927.7084,124.26499 927.28137,123.96894 927.03879,123.80076 924.14884,121.77229 920.85924,119.46122L914.87818,115.25927 914.87818,123.55719C914.87818,128.12105 914.90048,131.85411 914.92758,131.85288 914.95478,131.85188 917.84473,130.14606 921.34971,128.06268z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer98">
+      <DrawingGroup x:Name="text4258">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="874.35516,148.30516" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer99">
+      <DrawingGroup x:Name="text4214">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="874.26019,148.25032" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer28">
+      <GeometryDrawing x:Name="path4164" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M921.34973,149.49125C927.51981,145.82371 927.7084,145.69356 927.28137,145.39751 927.03879,145.22933 924.14884,143.20086 920.85924,140.88979L914.87818,136.68784 914.87818,144.98576C914.87818,149.54962 914.90048,153.28268 914.92758,153.28145 914.95478,153.28045 917.84473,151.57463 921.34971,149.49125z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer27">
+      <GeometryDrawing x:Name="path4245" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M921.34973,149.49125C927.51981,145.82371 927.7084,145.69356 927.28137,145.39751 927.03879,145.22933 924.14884,143.20086 920.85924,140.88979L914.87818,136.68784 914.87818,144.98576C914.87818,149.54962 914.90048,153.28268 914.92758,153.28145 914.95478,153.28045 917.84473,151.57463 921.34971,149.49125z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer96">
+      <DrawingGroup x:Name="text4254">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="875.28326,170.46248" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer97">
+      <DrawingGroup x:Name="text4210">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="874.6709,170.80634" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer30">
+      <GeometryDrawing x:Name="path4131" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M921.34973,170.91982C927.51981,167.25228 927.7084,167.12213 927.28137,166.82608 927.03879,166.6579 924.14884,164.62943 920.85924,162.31836L914.87818,158.11641 914.87818,166.41433C914.87818,170.97819 914.90048,174.71125 914.92758,174.71002 914.95478,174.70902 917.84473,173.0032 921.34971,170.91982z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer29">
+      <GeometryDrawing x:Name="path4239" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M921.34973,170.91982C927.51981,167.25228 927.7084,167.12213 927.28137,166.82608 927.03879,166.6579 924.14884,164.62943 920.85924,162.31836L914.87818,158.11641 914.87818,166.41433C914.87818,170.97819 914.90048,174.71125 914.92758,174.71002 914.95478,174.70902 917.84473,173.0032 921.34971,170.91982z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer6">
+      <GeometryDrawing x:Name="path3217">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M935.73303,53.394622L877.34373,109.26365 824.95301,54.509562 815.08599,63.950692 867.47671,118.70478 808.36487,175.26516 817.7844,185.1096 876.89624,128.54923 936.95652,191.31887 946.82354,181.87773 886.76326,119.1081 945.15256,63.239072 935.73303,53.394622z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer8">
+      <GeometryDrawing x:Name="path4808">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M809.61737,187.17264L940.38778,187.17264 940.38778,55.749845 906.04543,55.749845 906.04543,39.173655 910.61441,39.173655 910.72903,26.937205 843.17509,27.051825 843.17509,39.173655 848.2142,39.173655 848.2142,55.749845 809.75529,55.761545z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer47">
+      <GeometryDrawing x:Name="rect4730">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.03921569" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+            <Pen.Brush>
+              <SolidColorBrush Color="#FF000000" Opacity="0.07843137" />
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="4.8629" RadiusY="4.8629" Rect="806.145,14.811,138.0027,175.5985" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer59">
+      <GeometryDrawing x:Name="path4597">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M367.73411,163.2141C362.87118,163.2141 362.52284,172.3079 357.98411,172.3079 354.03566,172.3079 354.54154,165.4866 350.89036,163.6516L350.89036,181.7141 395.73411,181.7141 395.73411,181.7451 464.14036,181.7451 464.14036,164.4326C463.45538,163.7554 462.59148,163.3125 461.45286,163.2763 456.7544,163.1271 457.25914,172.5263 452.23411,172.5263 447.20908,172.5263 448.17709,163.2763 442.82786,163.2763 437.47864,163.2763 438.92709,172.3701 433.57786,172.3701 428.22864,172.3701 429.22204,163.2763 424.35911,163.2763 419.49618,163.2763 420.52328,172.4274 414.60911,172.3701 409.76612,172.2831 411.79296,163.2171 405.54661,163.2763 400.68279,163.2653 400.9476,172.4919 395.73411,172.4638 391.39351,172.3378 391.63397,163.387 386.20286,163.2138 380.85364,163.2138 382.30209,172.3076 376.95286,172.3076 371.60364,172.3076 372.59704,163.2138 367.73411,163.2138z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4680">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M542.53125,162.28125C537.18203,162.28125 538.63048,171.40625 533.28125,171.40625 529.60366,171.40625 528.92714,167.09265 527.28125,164.40625L531.84375,178.03125 603.46875,178.4375 606.09375,170.5C603.70762,168.06009 603.36682,162.34375 599.15625,162.34375 593.80703,162.34375 595.25548,171.46875 589.90625,171.46875 584.55703,171.46875 585.55043,162.34375 580.6875,162.34375 575.82457,162.34375 576.85167,171.52605 570.9375,171.46875 566.09451,171.38175 568.12135,162.28455 561.875,162.34375 557.01118,162.33275 557.27599,171.55935 552.0625,171.53125 547.7219,171.40525 547.96236,162.45445 542.53125,162.28125z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer37">
+      <GeometryDrawing x:Name="path4374">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M368.0583,139.22364C363.19537,139.22364 362.84703,148.31744 358.3083,148.31744 354.35985,148.31744 354.86573,141.49614 351.21455,139.66114L351.21455,157.72364 396.0583,157.72364 396.0583,157.75464 464.46455,157.75464 464.46455,140.44214C463.77957,139.76494 462.91567,139.32204 461.77705,139.28584 457.07859,139.13664 457.58333,148.53584 452.5583,148.53584 447.53327,148.53584 448.50128,139.28584 443.15205,139.28584 437.80283,139.28584 439.25128,148.37964 433.90205,148.37964 428.55283,148.37964 429.54623,139.28584 424.6833,139.28584 419.82037,139.28584 420.84747,148.43694 414.9333,148.37964 410.09031,148.29264 412.11715,139.22664 405.8708,139.28584 401.00698,139.27484 401.27179,148.50144 396.0583,148.47334 391.7177,148.34734 391.95816,139.39654 386.52705,139.22334 381.17783,139.22334 382.62628,148.31714 377.27705,148.31714 371.92783,148.31714 372.92123,139.22334 368.0583,139.22334z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4377">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="351.143,157.747,112.7807,22.9229" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4766">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M574.65625,138.90625C569.79332,138.90625 569.44498,148 564.90625,148 560.7629,148.0458 560.42664,138.99318 555.53125,138.9375 550.83279,138.7883 551.33753,148.1875 546.3125,148.1875 541.28747,148.1875 542.25548,138.9375 536.90625,138.9375 531.55703,138.9375 533.00548,148.03125 527.65625,148.03125 522.4148,148.03125 523.25735,139.32054 518.71875,138.96875L531.84375,178.03125 603.46875,178.4375 615.96875,140.5C615.19404,139.5745 614.12023,138.9531 612.46875,138.96875 607.60493,138.95775 607.86974,148.18435 602.65625,148.15625 598.31565,148.03025 598.55611,139.07945 593.125,138.90625 587.77578,138.90625 589.22423,148 583.875,148 578.52578,148 579.51918,138.90625 574.65625,138.90625z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer38">
+      <GeometryDrawing x:Name="rect4384">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="1.1462" RadiusY="1.1462" Rect="350.7384,133.882,113.245,47.2236" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4379">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M368.28754,115.3826C363.42461,115.3826 363.07627,124.4764 358.53754,124.4764 354.58909,124.4764 355.09497,117.6551 351.44379,115.8201L351.44379,133.8826 396.28754,133.8826 396.28754,133.9136 464.69379,133.9136 464.69379,116.6011C464.00881,115.9239 463.14491,115.481 462.00629,115.4448 457.30783,115.2956 457.81257,124.6948 452.78754,124.6948 447.76251,124.6948 448.73052,115.4448 443.38129,115.4448 438.03207,115.4448 439.48052,124.5386 434.13129,124.5386 428.78207,124.5386 429.77547,115.4448 424.91254,115.4448 420.04961,115.4448 421.07671,124.5959 415.16254,124.5386 410.31955,124.4516 412.34639,115.3856 406.10004,115.4448 401.23622,115.4338 401.50103,124.6604 396.28754,124.6323 391.94694,124.5063 392.1874,115.5555 386.75629,115.3823 381.40707,115.3823 382.85552,124.4761 377.50629,124.4761 372.15707,124.4761 373.15047,115.3823 368.28754,115.3823z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4814">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M574.6875,115.34375C569.82457,115.34375 569.47623,124.4375 564.9375,124.4375 560.79415,124.4833 560.45789,115.43068 555.5625,115.375 550.86404,115.2258 551.36878,124.625 546.34375,124.625 541.31872,124.625 542.28673,115.375 536.9375,115.375 531.58828,115.375 533.03673,124.46875 527.6875,124.46875 522.33828,124.46875 523.33168,115.375 518.46875,115.375 515.33882,115.375 514.63988,119.15709 512.96875,121.84375L531.84375,178.03125 603.46875,178.4375 621.25,124.46875C616.80836,123.99987 618.60664,115.34837 612.5,115.40625 607.63618,115.39525 607.90099,124.62185 602.6875,124.59375 598.3469,124.46775 598.58736,115.51695 593.15625,115.34375 587.80703,115.34375 589.25548,124.4375 583.90625,124.4375 578.55703,124.4375 579.55043,115.34375 574.6875,115.34375z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer39">
+      <GeometryDrawing x:Name="path4386">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M368.28754,91.541557C363.42461,91.541557 363.07627,100.63536 358.53754,100.63536 354.58909,100.63536 355.09497,93.814057 351.44379,91.979057L351.44379,110.04156 396.28754,110.04156 396.28754,110.07256 464.69379,110.07256 464.69379,92.760057C464.00881,92.082857 463.14491,91.639957 462.00629,91.603757 457.30783,91.454557 457.81257,100.85376 452.78754,100.85376 447.76251,100.85376 448.73052,91.603757 443.38129,91.603757 438.03207,91.603757 439.48052,100.69756 434.13129,100.69756 428.78207,100.69756 429.77547,91.603757 424.91254,91.603757 420.04961,91.603757 421.07671,100.75486 415.16254,100.69756 410.31955,100.61056 412.34639,91.544557 406.10004,91.603757 401.23622,91.592757 401.50103,100.81936 396.28754,100.79126 391.94694,100.66526 392.1874,91.714457 386.75629,91.541257 381.40707,91.541257 382.85552,100.63506 377.50629,100.63506 372.15707,100.63506 373.15047,91.541257 368.28754,91.541257z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4389">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="1.1462" RadiusY="1.1462" Rect="351.1969,110.0409,112.7865,70.6062" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4876">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M556.5625,91.59375C551.69957,91.59375 551.35123,100.6875 546.8125,100.6875 542.66915,100.7333 542.33289,91.68068 537.4375,91.625 532.73904,91.4758 533.24378,100.875 528.21875,100.875 523.19372,100.875 524.16173,91.625 518.8125,91.625 513.46328,91.625 514.91173,100.71875 509.5625,100.71875 505.83964,100.71875 505.19084,96.303378 503.5,93.625L531.84375,178.03125 603.46875,178.4375 632.0625,91.6875C631.92656,91.67428 631.80122,91.65625 631.65625,91.65625 626.30703,91.65625 627.75548,100.75 622.40625,100.75 617.05703,100.75 618.05043,91.65625 613.1875,91.65625 608.32457,91.65625 609.35167,100.8073 603.4375,100.75 598.59451,100.663 600.62135,91.59705 594.375,91.65625 589.51118,91.64525 589.77599,100.87185 584.5625,100.84375 580.2219,100.71775 580.46236,91.76695 575.03125,91.59375 569.68203,91.59375 571.13048,100.6875 565.78125,100.6875 560.43203,100.6875 561.42543,91.59375 556.5625,91.59375z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer41">
+      <GeometryDrawing x:Name="path4391">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M368.28754,66.554309C363.42461,66.554309 363.07627,75.648112 358.53754,75.648112 354.58909,75.648112 355.09497,68.826809 351.44379,66.991809L351.44379,85.054312 396.28754,85.054312 396.28754,85.085312 464.69379,85.085312 464.69379,67.772809C464.00881,67.095609 463.14491,66.652709 462.00629,66.616509 457.30783,66.467309 457.81257,75.866512 452.78754,75.866512 447.76251,75.866512 448.73052,66.616509 443.38129,66.616509 438.03207,66.616509 439.48052,75.710312 434.13129,75.710312 428.78207,75.710312 429.77547,66.616509 424.91254,66.616509 420.04961,66.616509 421.07671,75.767612 415.16254,75.710312 410.31955,75.623312 412.34639,66.557309 406.10004,66.616509 401.23622,66.605509 401.50103,75.832112 396.28754,75.804012 391.94694,75.678012 392.1874,66.727209 386.75629,66.554009 381.40707,66.554009 382.85552,75.647812 377.50629,75.647812 372.15707,75.647812 373.15047,66.554009 368.28754,66.554009z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4397">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="1.1462" RadiusY="1.1462" Rect="351.6554,85.0537,112.5572,96.0519" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4919">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M499.28125,66.03125C495.94831,66.03125,495.21853,69.557366,493.875,72.21875L496.3125,72.21875 531.84375,178.03125 603.46875,178.4375 638.0625,73.40625C636.48181,70.748142 636.28785,66.051039 631.78125,66.09375 626.91743,66.08275 627.18224,75.30935 621.96875,75.28125 617.62815,75.15525 617.86861,66.20445 612.4375,66.03125 607.08828,66.03125 608.53673,75.125 603.1875,75.125 597.83828,75.125 598.83168,66.03125 593.96875,66.03125 589.10582,66.03125 588.75748,75.125 584.21875,75.125 580.0754,75.1708 579.73914,66.11818 574.84375,66.0625 570.14529,65.9133 570.65003,75.3125 565.625,75.3125 560.59997,75.3125 561.56798,66.0625 556.21875,66.0625 550.38037,66.20141 551.93141,75.21077 546.875,75.09375 542.79575,75.12065 543.44537,66.07327 537.4375,66.09375 532.57457,66.09375 533.60167,75.2448 527.6875,75.1875 522.84451,75.1005 524.87135,66.03455 518.625,66.09375 513.76118,66.08275 514.02599,75.30935 508.8125,75.28125 504.4719,75.15525 504.71236,66.20445 499.28125,66.03125z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer60">
+      <GeometryDrawing x:Name="path4394" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M368.28754,66.554309C363.42461,66.554309 363.07627,75.648112 358.53754,75.648112 354.58909,75.648112 355.09497,68.826809 351.44379,66.991809L351.44379,85.054312 396.28754,85.054312 396.28754,85.085312 464.69379,85.085312 464.69379,67.772809C464.00881,67.095609 463.14491,66.652709 462.00629,66.616509 457.30783,66.467309 457.81257,75.866512 452.78754,75.866512 447.76251,75.866512 448.73052,66.616509 443.38129,66.616509 438.03207,66.616509 439.48052,75.710312 434.13129,75.710312 428.78207,75.710312 429.77547,66.616509 424.91254,66.616509 420.04961,66.616509 421.07671,75.767612 415.16254,75.710312 410.31955,75.623312 412.34639,66.557309 406.10004,66.616509 401.23622,66.605509 401.50103,75.832112 396.28754,75.804012 391.94694,75.678012 392.1874,66.727209 386.75629,66.554009 381.40707,66.554009 382.85552,75.647812 377.50629,75.647812 372.15707,75.647812 373.15047,66.554009 368.28754,66.554009z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4954" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M499.28125,66.03125C495.94831,66.03125,495.21853,69.557366,493.875,72.21875L496.3125,72.21875 500.5,84.71875 634.34375,84.71875 638.0625,73.40625C636.48181,70.748142 636.28785,66.051039 631.78125,66.09375 626.91743,66.08275 627.18224,75.30935 621.96875,75.28125 617.62815,75.15525 617.86861,66.20445 612.4375,66.03125 607.08828,66.03125 608.53673,75.125 603.1875,75.125 597.83828,75.125 598.83168,66.03125 593.96875,66.03125 589.10582,66.03125 588.75748,75.125 584.21875,75.125 580.0754,75.1708 579.73914,66.11818 574.84375,66.0625 570.14529,65.9133 570.65003,75.3125 565.625,75.3125 560.59997,75.3125 561.56798,66.0625 556.21875,66.0625 550.38037,66.20141 551.93141,75.21077 546.875,75.09375 542.79575,75.12065 543.44537,66.07327 537.4375,66.09375 532.57457,66.09375 533.60167,75.2448 527.6875,75.1875 522.84451,75.1005 524.87135,66.03455 518.625,66.09375 513.76118,66.08275 514.02599,75.30935 508.8125,75.28125 504.4719,75.15525 504.71236,66.20445 499.28125,66.03125z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer95">
+      <DrawingGroup x:Name="text4250">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="391.14182,152.62695" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer94">
+      <DrawingGroup x:Name="text4205">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="391.46603,152.46486" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer23">
+      <GeometryDrawing x:Name="path3272" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M361.10217,153.80991C354.93209,150.14237 354.7435,150.01222 355.17053,149.71617 355.41311,149.54799 358.30306,147.51952 361.59266,145.20845L367.57372,141.0065 367.57372,149.30442C367.57372,153.86828 367.55142,157.60134 367.52432,157.60011 367.49712,157.59911 364.60717,155.89329 361.10219,153.80991z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer24">
+      <GeometryDrawing x:Name="path4221" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M361.10217,153.80991C354.93209,150.14237 354.7435,150.01222 355.17053,149.71617 355.41311,149.54799 358.30306,147.51952 361.59266,145.20845L367.57372,141.0065 367.57372,149.30442C367.57372,153.86828 367.55142,157.60134 367.52432,157.60011 367.49712,157.59911 364.60717,155.89329 361.10219,153.80991z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer92">
+      <DrawingGroup x:Name="text4242">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="390.11441,174.67224" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer93">
+      <DrawingGroup x:Name="text4201">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="390.16922,174.51015" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer21">
+      <GeometryDrawing x:Name="path4063" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M360.59709,174.30882C354.42701,170.64128 354.23842,170.51113 354.66545,170.21508 354.90803,170.0469 357.79798,168.01843 361.08758,165.70736L367.06864,161.50541 367.06864,169.80333C367.06864,174.36719 367.04634,178.10025 367.01924,178.09902 366.99204,178.09802 364.10209,176.3922 360.59711,174.30882z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer22">
+      <GeometryDrawing x:Name="path4191" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M360.59709,174.30882C354.42701,170.64128 354.23842,170.51113 354.66545,170.21508 354.90803,170.0469 357.79798,168.01843 361.08758,165.70736L367.06864,161.50541 367.06864,169.80333C367.06864,174.36719 367.04634,178.10025 367.01924,178.09902 366.99204,178.09802 364.10209,176.3922 360.59711,174.30882z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer5">
+      <GeometryDrawing x:Name="path3215">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M469.54763,50.364164L411.15833,106.23319 358.76761,51.479104 348.90059,60.920234 401.29131,115.67432 342.17947,172.2347 351.599,182.07914 410.71084,125.51877 470.77112,188.28841 480.63814,178.84727 420.57786,116.07764 478.96716,60.208614 469.54763,50.364164z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer9">
+      <GeometryDrawing x:Name="path4457">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M341.83872,188.75073L472.60913,188.75073 472.60913,57.327936 438.26678,57.327936 438.26678,40.751746 442.83576,40.751746 442.95038,28.515296 375.39643,28.629916 375.39643,40.751746 380.43555,40.751746 380.43555,57.327936 341.97663,57.339636z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer44">
+      <GeometryDrawing x:Name="rect4732">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.03921569" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+            <Pen.Brush>
+              <SolidColorBrush Color="#FF000000" Opacity="0.07843137" />
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="4.8629" RadiusY="4.8629" Rect="338.4842,16.7006,138.0027,175.5985" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer57">
+      <GeometryDrawing x:Name="path4601">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M693.351,1024.2891C688.48807,1024.2891 688.13973,1033.3829 683.601,1033.3829 679.65255,1033.3829 680.15843,1026.5616 676.50725,1024.7266L676.50725,1042.7891 721.351,1042.7891 721.351,1042.8201 789.75725,1042.8201 789.75725,1025.5076C789.07227,1024.8304 788.20837,1024.3875 787.06975,1024.3513 782.37129,1024.2021 782.87603,1033.6013 777.851,1033.6013 772.82597,1033.6013 773.79398,1024.3513 768.44475,1024.3513 763.09553,1024.3513 764.54398,1033.4451 759.19475,1033.4451 753.84553,1033.4451 754.83893,1024.3513 749.976,1024.3513 745.11307,1024.3513 746.14017,1033.5024 740.226,1033.4451 735.38301,1033.3581 737.40985,1024.2921 731.1635,1024.3513 726.29968,1024.3403 726.56449,1033.5669 721.351,1033.5388 717.0104,1033.4128 717.25086,1024.462 711.81975,1024.2888 706.47053,1024.2888 707.91898,1033.3826 702.56975,1033.3826 697.22053,1033.3826 698.21393,1024.2888 693.351,1024.2888z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer42">
+      <GeometryDrawing x:Name="path5375">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M692.95966,301.60869C688.09673,301.60869 687.74839,310.70249 683.20966,310.70249 679.26121,310.70249 679.76709,303.88119 676.11591,302.04619L676.11591,320.10862 720.95966,320.10862 720.95966,320.13962 789.36591,320.13962 789.36591,302.82719C788.68093,302.14999 787.81703,301.70709 786.67841,301.67089 781.97995,301.52169 782.48469,310.92089 777.45966,310.92089 772.43463,310.92089 773.40264,301.67089 768.05341,301.67089 762.70419,301.67089 764.15264,310.76469 758.80341,310.76469 753.45419,310.76469 754.44759,301.67089 749.58466,301.67089 744.72173,301.67089 745.74883,310.82199 739.83466,310.76469 734.99167,310.67769 737.01851,301.61169 730.77216,301.67089 725.90834,301.65989 726.17315,310.88649 720.95966,310.85839 716.61906,310.73239 716.85952,301.78159 711.42841,301.60839 706.07919,301.60839 707.52764,310.70219 702.17841,310.70219 696.82919,310.70219 697.82259,301.60839 692.95966,301.60839z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect5484">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="676.1458,320.1401,113.3596,40.6904" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer43">
+      <GeometryDrawing x:Name="path3353">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M693.28386,274.86257C688.42093,274.86257 688.07259,283.95637 683.53386,283.95637 679.58541,283.95637 680.09129,277.13507 676.44011,275.30007L676.44011,293.3625 721.28386,293.3625 721.28386,293.3935 789.69011,293.3935 789.69011,276.08107C789.00513,275.40387 788.14123,274.96097 787.00261,274.92477 782.30415,274.77557 782.80889,284.17477 777.78386,284.17477 772.75883,284.17477 773.72684,274.92477 768.37761,274.92477 763.02839,274.92477 764.47684,284.01857 759.12761,284.01857 753.77839,284.01857 754.77179,274.92477 749.90886,274.92477 745.04593,274.92477 746.07303,284.07587 740.15886,284.01857 735.31587,283.93157 737.34271,274.86557 731.09636,274.92477 726.23254,274.91377 726.49735,284.14037 721.28386,284.11227 716.94326,283.98627 717.18372,275.03547 711.75261,274.86227 706.40339,274.86227 707.85184,283.95607 702.50261,283.95607 697.15339,283.95607 698.14679,274.86227 693.28386,274.86227z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect3356">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="676.7189,293.4336,112.7865,67.1676" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer45">
+      <GeometryDrawing x:Name="rect4191">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FA" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="676.7189,265.6954,112.7865,94.9057" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5379">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M693.351,929.6408C688.48807,929.6408 688.13973,938.7346 683.601,938.7346 679.65255,938.7346 680.15843,931.9133 676.50725,930.0783L676.50725,948.14073 721.351,948.14073 721.351,948.17173 789.75725,948.17173 789.75725,930.8593C789.07227,930.1821 788.20837,929.7392 787.06975,929.703 782.37129,929.5538 782.87603,938.953 777.851,938.953 772.82597,938.953 773.79398,929.703 768.44475,929.703 763.09553,929.703 764.54398,938.7968 759.19475,938.7968 753.84553,938.7968 754.83893,929.703 749.976,929.703 745.11307,929.703 746.14017,938.8541 740.226,938.7968 735.38301,938.7098 737.40985,929.6438 731.1635,929.703 726.29968,929.692 726.56449,938.9186 721.351,938.8905 717.0104,938.7645 717.25086,929.8137 711.81975,929.6405 706.47053,929.6405 707.91898,938.7343 702.56975,938.7343 697.22053,938.7343 698.21393,929.6405 693.351,929.6405z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer58">
+      <GeometryDrawing x:Name="path4226">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M693.351,929.6408C688.48807,929.6408 688.13973,938.7346 683.601,938.7346 679.65255,938.7346 680.15843,931.9133 676.50725,930.0783L676.50725,948.14073 721.351,948.14073 721.351,948.17173 789.75725,948.17173 789.75725,930.8593C789.07227,930.1821 788.20837,929.7392 787.06975,929.703 782.37129,929.5538 782.87603,938.953 777.851,938.953 772.82597,938.953 773.79398,929.703 768.44475,929.703 763.09553,929.703 764.54398,938.7968 759.19475,938.7968 753.84553,938.7968 754.83893,929.703 749.976,929.703 745.11307,929.703 746.14017,938.8541 740.226,938.7968 735.38301,938.7098 737.40985,929.6438 731.1635,929.703 726.29968,929.692 726.56449,938.9186 721.351,938.8905 717.0104,938.7645 717.25086,929.8137 711.81975,929.6405 706.47053,929.6405 707.91898,938.7343 702.56975,938.7343 697.22053,938.7343 698.21393,929.6405 693.351,929.6405z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer90">
+      <DrawingGroup x:Name="text4238">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="747.43262,354.4386" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer91">
+      <DrawingGroup x:Name="text4196">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="747.27045,354.4386" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer19">
+      <GeometryDrawing x:Name="path4102" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M717.54952,354.06242C711.37944,350.39492 711.19085,350.26472 711.61788,349.96872 711.86046,349.80052 714.75041,347.77202 718.04001,345.46102L724.02107,341.25902 724.02107,349.55692C724.02107,354.12082 723.99877,357.85392 723.97167,357.85262 723.94447,357.85162 721.05452,356.14582 717.54954,354.06242z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer20">
+      <GeometryDrawing x:Name="path4233" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M717.54952,354.06242C711.37944,350.39492 711.19085,350.26472 711.61788,349.96872 711.86046,349.80052 714.75041,347.77202 718.04001,345.46102L724.02107,341.25902 724.02107,349.55692C724.02107,354.12082 723.99877,357.85392 723.97167,357.85262 723.94447,357.85162 721.05452,356.14582 717.54954,354.06242z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer89">
+      <DrawingGroup x:Name="text4230">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="745.97369,333.8522" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer88">
+      <DrawingGroup x:Name="text4192">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="745.16327,333.85223" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer15">
+      <GeometryDrawing x:Name="path4082" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M718.26381,333.34812C712.09373,329.68062 711.90514,329.55042 712.33217,329.25442 712.57475,329.08622 715.4647,327.05772 718.7543,324.74672L724.73536,320.54472 724.73536,328.84262C724.73536,333.40652 724.71306,337.13962 724.68596,337.13832 724.65876,337.13732 721.76881,335.43152 718.26383,333.34812z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer16">
+      <GeometryDrawing x:Name="path4227" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M718.26381,333.34812C712.09373,329.68062 711.90514,329.55042 712.33217,329.25442 712.57475,329.08622 715.4647,327.05772 718.7543,324.74672L724.73536,320.54472 724.73536,328.84262C724.73536,333.40652 724.71306,337.13962 724.68596,337.13832 724.65876,337.13732 721.76881,335.43152 718.26383,333.34812z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer4">
+      <GeometryDrawing x:Name="path3219">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M800.87767,230.17132L742.48837,286.04034 690.09765,231.28626 680.23063,240.72739 732.62135,295.48147 673.50951,352.04185 682.92904,361.88629 742.04088,305.32592 802.10116,368.09556 811.96818,358.65442 751.9079,295.88479 810.2972,240.01577 800.87767,230.17132z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer10">
+      <GeometryDrawing x:Name="path4635">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M667.25883,368.50212L798.02924,368.50212 798.02924,237.07933 763.68689,237.07933 763.68689,220.50314 768.25587,220.50314 768.37049,208.26669 700.81655,208.38131 700.81655,220.50314 705.85566,220.50314 705.85566,237.07933 667.39675,237.09103z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer40">
+      <GeometryDrawing x:Name="rect4728">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.03921569" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+            <Pen.Brush>
+              <SolidColorBrush Color="#FF000000" Opacity="0.07843137" />
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="4.8629" RadiusY="4.8629" Rect="664.3398,194.86,136.6274,176.5154" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer54">
+      <GeometryDrawing x:Name="path4563">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M33.366738,1021.7675C28.503808,1021.7675 28.155468,1030.8613 23.616738,1030.8613 19.668288,1030.8613 20.174168,1024.04 16.522988,1022.205L16.522988,1040.2675 61.366738,1040.2675 61.366738,1040.2985 129.77299,1040.2985 129.77299,1022.986C129.08801,1022.3088 128.22411,1021.8659 127.08549,1021.8297 122.38703,1021.6805 122.89177,1031.0797 117.86674,1031.0797 112.84171,1031.0797 113.80972,1021.8297 108.46049,1021.8297 103.11127,1021.8297 104.55972,1030.9235 99.210488,1030.9235 93.861268,1030.9235 94.854668,1021.8297 89.991738,1021.8297 85.128808,1021.8297 86.155908,1030.9808 80.241738,1030.9235 75.398748,1030.8365 77.425588,1021.7705 71.179238,1021.8297 66.315418,1021.8187 66.580228,1031.0453 61.366738,1031.0172 57.026138,1030.8912 57.266598,1021.9404 51.835488,1021.7672 46.486268,1021.7672 47.934718,1030.861 42.585488,1030.861 37.236268,1030.861 38.229668,1021.7672 33.366738,1021.7672z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer33">
+      <GeometryDrawing x:Name="path4882">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M32.679015,981.19188C27.816085,981.19188 27.467745,990.28568 22.929015,990.28568 18.980565,990.28568 19.486445,983.46438 15.835265,981.62938L15.835265,999.69185 60.679015,999.69185 60.679015,999.72285 129.08527,999.72285 129.08527,982.41038C128.40029,981.73318 127.53639,981.29028 126.39777,981.25408 121.69931,981.10488 122.20405,990.50408 117.17902,990.50408 112.15399,990.50408 113.122,981.25408 107.77277,981.25408 102.42355,981.25408 103.872,990.34788 98.522764,990.34788 93.173545,990.34788 94.166945,981.25408 89.304015,981.25408 84.441085,981.25408 85.468185,990.40518 79.554015,990.34788 74.711025,990.26088 76.737865,981.19488 70.491515,981.25408 65.627695,981.24308 65.892505,990.46968 60.679015,990.44158 56.338415,990.31558 56.578875,981.36478 51.147765,981.19158 45.798545,981.19158 47.246995,990.28538 41.897765,990.28538 36.548545,990.28538 37.541945,981.19158 32.679015,981.19158z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect5016">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="16.2761,317.2746,112.5572,40.8051" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer34">
+      <GeometryDrawing x:Name="path4884">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M33.137497,955.97539C28.274567,955.97539 27.926227,965.06919 23.387497,965.06919 19.439047,965.06919 19.944927,958.24789 16.293747,956.41289L16.293747,974.47539 61.137497,974.47539 61.137497,974.50639 129.54375,974.50639 129.54375,957.19389C128.85877,956.51669 127.99487,956.07379 126.85625,956.03759 122.15779,955.88839 122.66253,965.28759 117.6375,965.28759 112.61247,965.28759 113.58048,956.03759 108.23125,956.03759 102.88203,956.03759 104.33048,965.13139 98.981246,965.13139 93.632027,965.13139 94.625427,956.03759 89.762497,956.03759 84.899567,956.03759 85.926667,965.18869 80.012497,965.13139 75.169507,965.04439 77.196347,955.97839 70.949997,956.03759 66.086177,956.02659 66.350987,965.25319 61.137497,965.22509 56.796897,965.09909 57.037357,956.14829 51.606247,955.97509 46.257027,955.97509 47.705477,965.06889 42.356247,965.06889 37.007027,965.06889 38.000427,955.97509 33.137497,955.97509z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect5177">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="14.9007,292.0581,114.1619,66.0213" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer36">
+      <GeometryDrawing x:Name="rect5329">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FA" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="15.8176,265.9247,113.7034,92.6133" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4886">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M32.908256,929.84194C28.045326,929.84194 27.696986,938.93574 23.158256,938.93574 19.209806,938.93574 19.715686,932.11444 16.064506,930.27944L16.064506,948.34194 60.908256,948.34194 60.908256,948.37294 129.31451,948.37294 129.31451,931.06044C128.62953,930.38324 127.76563,929.94034 126.62701,929.90414 121.92855,929.75494 122.43329,939.15414 117.40826,939.15414 112.38323,939.15414 113.35124,929.90414 108.00201,929.90414 102.65279,929.90414 104.10124,938.99794 98.752005,938.99794 93.402786,938.99794 94.396186,929.90414 89.533256,929.90414 84.670326,929.90414 85.697426,939.05524 79.783256,938.99794 74.940266,938.91094 76.967106,929.84494 70.720756,929.90414 65.856936,929.89314 66.121746,939.11974 60.908256,939.09164 56.567656,938.96564 56.808116,930.01484 51.377006,929.84164 46.027786,929.84164 47.476236,938.93544 42.127006,938.93544 36.777786,938.93544 37.771186,929.84164 32.908256,929.84164z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer56">
+      <GeometryDrawing x:Name="path5220">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M32.908256,929.84194C28.045326,929.84194 27.696986,938.93574 23.158256,938.93574 19.209806,938.93574 19.715686,932.11444 16.064506,930.27944L16.064506,948.34194 60.908256,948.34194 60.908256,948.37294 129.31451,948.37294 129.31451,931.06044C128.62953,930.38324 127.76563,929.94034 126.62701,929.90414 121.92855,929.75494 122.43329,939.15414 117.40826,939.15414 112.38323,939.15414 113.35124,929.90414 108.00201,929.90414 102.65279,929.90414 104.10124,938.99794 98.752005,938.99794 93.402786,938.99794 94.396186,929.90414 89.533256,929.90414 84.670326,929.90414 85.697426,939.05524 79.783256,938.99794 74.940266,938.91094 76.967106,929.84494 70.720756,929.90414 65.856936,929.89314 66.121746,939.11974 60.908256,939.09164 56.567656,938.96564 56.808116,930.01484 51.377006,929.84164 46.027786,929.84164 47.476236,938.93544 42.127006,938.93544 36.777786,938.93544 37.771186,929.84164 32.908256,929.84164z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer86">
+      <DrawingGroup x:Name="text4226">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="57.914631,350.10608" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer87">
+      <DrawingGroup x:Name="text3420">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="57.416809,349.78189" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer18">
+      <GeometryDrawing x:Name="path4086" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M101.4143,349.75446C107.58438,346.08686 107.77297,345.95676 107.34594,345.66066 107.10336,345.49246 104.21341,343.46406 100.92381,341.15296L94.94275,336.95096 94.94275,345.24896C94.94275,349.81276 94.96505,353.54586 94.99215,353.54466 95.01935,353.54366 97.9093,351.83776 101.41428,349.75446z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer17">
+      <GeometryDrawing x:Name="path4207" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M101.4143,349.75446C107.58438,346.08686 107.77297,345.95676 107.34594,345.66066 107.10336,345.49246 104.21341,343.46406 100.92381,341.15296L94.94275,336.95096 94.94275,345.24896C94.94275,349.81276 94.96505,353.54586 94.99215,353.54466 95.01935,353.54366 97.9093,351.83776 101.41428,349.75446z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer85">
+      <DrawingGroup x:Name="text4222">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF000000">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="58.048908,330.40884" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(K)" GlyphIndices="11 46 12" AdvanceWidths="3.624 6.96 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer84">
+      <DrawingGroup x:Name="text4968">
+        <DrawingGroup>
+          <GlyphRunDrawing ForegroundBrush="#FF0000FF">
+            <GlyphRunDrawing.GlyphRun>
+              <GlyphRun BaselineOrigin="57.092609,331.09656" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="(D)" GlyphIndices="11 39 12" AdvanceWidths="3.624 8.412 3.624" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                <GlyphRun.GlyphTypeface>
+                  <GlyphTypeface FontUri="file:///C:/WINDOWS/FONTS/segoeui.ttf" StyleSimulations="None" />
+                </GlyphRun.GlyphTypeface>
+              </GlyphRun>
+            </GlyphRunDrawing.GlyphRun>
+          </GlyphRunDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer13">
+      <GeometryDrawing x:Name="path4072" Brush="#FF009600">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M101.05716,328.87426C107.22724,325.20676 107.41583,325.07656 106.9888,324.78056 106.74622,324.61236 103.85627,322.58386 100.56667,320.27276L94.58561,316.07085 94.58561,324.36876C94.58561,328.93266 94.60791,332.66566 94.63501,332.66446 94.66221,332.66446 97.55216,330.95766 101.05714,328.87426z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer14">
+      <GeometryDrawing x:Name="path4201" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M101.05716,328.87426C107.22724,325.20676 107.41583,325.07656 106.9888,324.78056 106.74622,324.61236 103.85627,322.58386 100.56667,320.27276L94.58561,316.07085 94.58561,324.36876C94.58561,328.93266 94.60791,332.66566 94.63501,332.66446 94.66221,332.66446 97.55216,330.95766 101.05714,328.87426z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer3">
+      <GeometryDrawing x:Name="path3213">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M132.66176,229.66624L74.27246,285.53527 21.88174,230.78118 12.01472,240.22231 64.40544,294.9764 5.2936005,351.53678 14.71313,361.38122 73.82497,304.82085 133.88525,367.59049 143.75227,358.14935 83.69199,295.37972 142.08129,239.51069 132.66176,229.66624z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer11">
+      <GeometryDrawing x:Name="path4018">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M6.9447986,366.08565L137.71521,366.08565 137.71521,234.66286 103.37286,234.66286 103.37286,218.08667 107.94184,218.08667 108.05646,205.85022 40.502513,205.96484 40.502513,218.08667 45.541626,218.08667 45.541626,234.66286 7.08271640000001,234.67456z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer35">
+      <GeometryDrawing x:Name="rect4734">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.03921569" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+            <Pen.Brush>
+              <SolidColorBrush Color="#FF000000" Opacity="0.07843137" />
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="4.8629" RadiusY="4.8629" Rect="4.182,193.2947,136.6274,176.5154" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer50">
+      <GeometryDrawing x:Name="rect3689">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M25.282274,844.67797C20.419344,844.59697 20.238244,853.41532 15.719774,853.33422 15.658574,853.33322 15.535964,853.33499 15.469774,853.33422L15.469774,863.17797 90.969774,863.17797 90.969774,853.49047C90.650934,853.47647 90.442584,853.47307 90.063524,853.45927 85.626094,853.29717 86.294604,844.84012 81.188524,844.67802 76.490064,844.52886 76.994804,853.92802 71.969774,853.92802 66.944744,853.92802 67.912754,844.67802 62.563524,844.67802 57.214304,844.67802 58.662754,853.77177 53.313524,853.77177 47.964304,853.77177 48.957704,844.67802 44.094774,844.67802 39.231844,844.67802 38.883504,853.77177 34.344774,853.77177 29.806034,853.77177 31.119224,844.77532 25.282274,844.67802z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3832">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FA" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M188.40625,161.3125C185.05685,161.71434,183.96533,166.67279,181.75,169.09375L184.4375,177.0625 256.0625,177.46875 260.84375,162.96875C258.87256,165.57766 258.60889,170.46875 254.6875,170.46875 249.33828,170.46875 250.33168,161.375 245.46875,161.375 240.60582,161.375 241.63292,170.52605 235.71875,170.46875 230.87576,170.38175 232.9026,161.3158 226.65625,161.375 221.79243,161.364 222.05724,170.5906 216.84375,170.5625 212.50315,170.4365 212.74361,161.4857 207.3125,161.3125 201.96328,161.3125 203.41173,170.40625 198.0625,170.40625 192.71328,170.40625 193.70668,161.3125 188.84375,161.3125 188.69178,161.3125 188.54966,161.2953 188.40625,161.3125z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer7">
+      <DrawingGroup x:Name="g4719">
+        <GeometryDrawing x:Name="path4605">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" Transform="1,0,0,1,0,-682.36218" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,-682.36218" Figures="M24.365311,785.07536C19.502381,784.99436 19.321281,793.81271 14.802811,793.73161 14.741611,793.73061 14.619001,793.73238 14.552811,793.73161L14.552811,803.57536 90.052811,803.57536 90.052811,793.88786C89.733971,793.87386 89.525621,793.87046 89.146561,793.85666 84.709131,793.69456 85.377641,785.23751 80.271561,785.07541 75.573101,784.92625 76.077841,794.32541 71.052811,794.32541 66.027781,794.32541 66.995791,785.07541 61.646561,785.07541 56.297341,785.07541 57.745791,794.16916 52.396561,794.16916 47.047341,794.16916 48.040741,785.07541 43.177811,785.07541 38.314881,785.07541 37.966541,794.16916 33.427811,794.16916 28.889071,794.16916 30.202261,785.17271 24.365311,785.07541z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="rect4717">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="14.7509,121.18,75.3754,59.8141" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path5276">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M211.9375,103.15625C207.07457,103.15625 206.72623,112.25 202.1875,112.25 198.38119,112.2688 198.84607,103.11653 193.0625,103.1875 188.36404,103.0383 188.86878,112.4375 183.84375,112.4375 178.81872,112.4375 179.78673,103.1875 174.4375,103.1875 169.08828,103.1875 170.53673,112.28125 165.1875,112.28125 163.86825,112.28125 162.94943,111.73965 162.21875,110.90625L184.4375,177.0625 256.0625,177.46875 277.53125,112.28125C272.47686,111.98705 273.34407,103.21875 268.5625,103.21875 263.69957,103.21875 264.72667,112.3698 258.8125,112.3125 253.96951,112.2255 255.99635,103.15955 249.75,103.21875 244.88618,103.20775 245.15099,112.43435 239.9375,112.40625 235.5969,112.28025 235.83736,103.32945 230.40625,103.15625 225.05703,103.15625 226.50548,112.25 221.15625,112.25 215.80703,112.25 216.80043,103.15625 211.9375,103.15625z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer32">
+      <GeometryDrawing x:Name="path4607">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M24.823793,69.24402C19.960863,69.16302 19.779763,77.98137 15.261293,77.90027 15.200093,77.89927 15.077483,77.90104 15.011293,77.90027L15.011293,87.74402 90.511293,87.74402 90.511293,78.05652C90.192453,78.04252 89.984103,78.03912 89.605043,78.02532 85.167613,77.86322 85.836123,69.40617 80.730043,69.24407 76.031583,69.09491 76.536323,78.49407 71.511293,78.49407 66.486263,78.49407 67.454273,69.24407 62.105043,69.24407 56.755823,69.24407 58.204273,78.33782 52.855043,78.33782 47.505823,78.33782 48.499223,69.24407 43.636293,69.24407 38.773363,69.24407 38.425023,78.33782 33.886293,78.33782 29.347553,78.33782 30.660743,69.34137 24.823793,69.24407z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect4772">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="15.5884,87.8046,74.7325,93.301" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3760">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF6464FF" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M211.46875,69.21875C206.60582,69.21875 206.25748,78.3125 201.71875,78.3125 197.91244,78.3313 198.37732,69.17903 192.59375,69.25 187.89529,69.1008 188.40003,78.5 183.375,78.5 178.34997,78.5 179.31798,69.25 173.96875,69.25 168.61953,69.25 170.06798,78.34375 164.71875,78.34375 159.36953,78.34375 160.36293,69.25 155.5,69.25 152.53657,69.25 151.74256,72.639394 150.25,75.28125L184.4375,177.0625 256.0625,177.46875 290.65625,72.4375C289.76055,70.715852 288.65335,69.28125 286.5625,69.28125 281.21328,69.28125 282.66173,78.375 277.3125,78.375 271.96328,78.375 272.95668,69.28125 268.09375,69.28125 263.23082,69.28125 264.25792,78.4323 258.34375,78.375 253.50076,78.288 255.5276,69.22205 249.28125,69.28125 244.41743,69.27025 244.68224,78.49685 239.46875,78.46875 235.12815,78.34275 235.36861,69.39195 229.9375,69.21875 224.58828,69.21875 226.03673,78.3125 220.6875,78.3125 215.33828,78.3125 216.33168,69.21875 211.46875,69.21875z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer55">
+      <GeometryDrawing x:Name="path4962" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M188.40625,161.3125C185.05685,161.71434,183.96533,166.67279,181.75,169.09375L184.4375,177.0625 256.0625,177.46875 260.84375,162.96875C258.87256,165.57766 258.60889,170.46875 254.6875,170.46875 249.33828,170.46875 250.33168,161.375 245.46875,161.375 240.60582,161.375 241.63292,170.52605 235.71875,170.46875 230.87576,170.38175 232.9026,161.3158 226.65625,161.375 221.79243,161.364 222.05724,170.5906 216.84375,170.5625 212.50315,170.4365 212.74361,161.4857 207.3125,161.3125 201.96328,161.3125 203.41173,170.40625 198.0625,170.40625 192.71328,170.40625 193.70668,161.3125 188.84375,161.3125 188.69178,161.3125 188.54966,161.2953 188.40625,161.3125z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path4931" Brush="#FFFF0000">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M25.310086,162.28798C20.447156,162.20698 20.266056,171.02533 15.747586,170.94423 15.686386,170.94323 15.563776,170.945 15.497586,170.94423L15.497586,180.78798 90.997586,180.78798 90.997586,171.10048C90.678746,171.08648 90.470396,171.08308 90.091336,171.06928 85.653906,170.90718 86.322416,162.45013 81.216336,162.28803 76.517876,162.13887 77.022616,171.53803 71.997586,171.53803 66.972556,171.53803 67.940566,162.28803 62.591336,162.28803 57.242116,162.28803 58.690566,171.38178 53.341336,171.38178 47.992116,171.38178 48.985516,162.28803 44.122586,162.28803 39.259656,162.28803 38.911316,171.38178 34.372586,171.38178 29.833846,171.38178 31.147036,162.38533 25.310086,162.28803z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer2">
+      <GeometryDrawing x:Name="rect3212">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="0.39215686" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M129.12623,52.889537L70.736925,108.75857 18.346205,54.004477 8.4791849,63.445607 60.869905,118.1997 1.7580649,174.76008 11.177595,184.60452 70.289435,128.04415 130.34972,190.81379 140.21674,181.37265 80.156455,118.60302 138.54576,62.733987 129.12623,52.889537z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer12">
+      <GeometryDrawing x:Name="path4016">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFF0000" Thickness="2" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M5.9346461,188.80388L98.994949,188.80388 98.994949,57.610327 82.074894,57.610327 82.074894,40.690272 86.873118,40.690272 86.873118,28.568442 19.319168,28.568442 19.319168,40.690273 24.243661,40.690273 24.243661,57.610327 6.18718429999999,57.736596z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer31">
+      <GeometryDrawing x:Name="rect3879">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.03921569" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Pen>
+          <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+            <Pen.Brush>
+              <SolidColorBrush Color="#FF000000" Opacity="0.07843137" />
+            </Pen.Brush>
+          </Pen>
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="4.8629" RadiusY="4.8629" Rect="3.242,14.0755,99.3937,177.9412" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer81">
+      <GeometryDrawing x:Name="path4452">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,722.50305,-230.01536" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,722.50305,-230.01536" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer82">
+      <GeometryDrawing x:Name="path4431">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,643.45836,-369.79524" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,643.45836,-369.79524" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer83">
+      <GeometryDrawing x:Name="path4419">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,644.07381,-347.44026" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,644.07381,-347.44026" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer72">
+      <GeometryDrawing x:Name="path4315">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,270.46808,-415.62206" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.46808,-415.62206" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer73">
+      <GeometryDrawing x:Name="path4291">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,270.46808,-393.29735" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.46808,-393.29735" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer74">
+      <GeometryDrawing x:Name="path4265">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,270.46808,-368.46737" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.46808,-368.46737" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer75">
+      <GeometryDrawing x:Name="path4232">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,270.56692,-345.22541" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,270.56692,-345.22541" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer76">
+      <GeometryDrawing x:Name="path4193">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,597.13257,-234.06699" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,597.13257,-234.06699" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer77">
+      <GeometryDrawing x:Name="path3358">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,596.6298,-206.4128" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,596.6298,-206.4128" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer78">
+      <GeometryDrawing x:Name="path5410">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,597.09963,-179.46764" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,597.09963,-179.46764" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer70">
+      <GeometryDrawing x:Name="path5281">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,-163.04401,-233.50155" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-163.04401,-233.50155" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5223">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,-163.04401,-233.50155" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-163.04401,-233.50155" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer79">
+      <GeometryDrawing x:Name="path5062">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,-163.04401,-207.78726" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-163.04401,-207.78726" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer71">
+      <GeometryDrawing x:Name="path5018">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,-162.68687,-182.78726" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-162.68687,-182.78726" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer69">
+      <GeometryDrawing x:Name="path4828">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,-162.22974,-411.54499" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-162.22974,-411.54499" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer80">
+      <GeometryDrawing x:Name="path4778">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFF0000" Opacity="1" Transform="1,0,0,1,-162.73482,-377.70488" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="EvenOdd" Transform="1,0,0,1,-162.73482,-377.70488" Figures="M188.39344,499.63757A3.5355339,3.5355339,0,1,1,181.32238,499.63757A3.5355339,3.5355339,0,1,1,188.39344,499.63757z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

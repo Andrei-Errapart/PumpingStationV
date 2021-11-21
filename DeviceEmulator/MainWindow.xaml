@@ -1,0 +1,236 @@
+﻿<Window x:Class="DeviceEmulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:DeviceEmulator"
+        xmlns:csu="clr-namespace:CSUtils;assembly=CSUtils"
+        Title="MainWindow" Height="450" Width="525" Loaded="Window_Loaded">
+    <Window.Resources>
+        <csu:VisibilityOf x:Key="VisibilityOfBool" />
+    </Window.Resources>
+    <DockPanel>
+        <Button DockPanel.Dock="Bottom" Click="Button_Stop_Click" Content="Stop!" />
+        <DockPanel DockPanel.Dock="Left">
+            <TextBlock DockPanel.Dock="Top" Text="Modules" />
+            <CheckBox DockPanel.Dock="Top" Name="checkboxImod"  Content="iMOD" IsChecked="True" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox01"  Content="01 - M7051" IsChecked="True" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox02" Content="02 - M7055" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox31" Content="31 - M7051" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox32" Content="32 - M7055" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox51" Content="51 - M7055" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox52" Content="52 - M7051" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox71" Content="71 - M7055" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox72" Content="72 - M7051" />
+            <CheckBox DockPanel.Dock="Top" Name="checkbox73" Content="73 - M7051" />
+        </DockPanel>
+        <UniformGrid DockPanel.Dock="Top" Name="grid" Rows="1" >
+            <local:IOModuleControl Address="0" Header="iMOD-9300" Visibility="{Binding ElementName=checkboxImod, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="LSA1.1" SignalDescription="Kaevu RP1 alumine nivoo" />
+                <local:IOPin IsInput="True" Number="1" SignalName="LSA1.2" SignalDescription="Kaevu RP1 ülemine nivoo"/>
+                <local:IOPin IsInput="True" Number="2" SignalName="TJK:P3 SISSE" SignalDescription="RP7 tuletõrjepump 'Sisse'"/>
+                <local:IOPin IsInput="True" Number="3" SignalName="TJK:P3 VÄLJA" SignalDescription="RP7 tuletõrjepump 'Välja'"/>
+                <local:IOPin IsInput="True" Number="4" SignalName="TVS1" SignalDescription="Liigpinge piirik TVS1 rakendunud"/>
+                <local:IOPin IsInput="True" Number="5" SignalName="TVS2" SignalDescription="Liigpinge piirik TVS2 rakendunud"/>
+                <local:IOPin IsInput="True" Number="6" SignalName="U1 FAASIHÄIRE" SignalDescription="Toite faasijärjestus vale"/>
+                <local:IOPin IsInput="True" Number="7" SignalName="U1 ALAPINGE" SignalDescription="Toites alapinge"/>
+                <local:IOPin IsInput="False" Number="0" SignalName="TJK:P3 TÖÖTAB" SignalDescription="RP7 tuletõrjepump 'Töötab'"/>
+                <local:IOPin IsInput="False" Number="1" SignalName="P1 START" SignalDescription="Pump P1 tööle"/>
+                <local:IOPin IsInput="False" Number="2" SignalName="P1 HÄIRE" SignalDescription="Pump P1 häires"/>
+                <local:IOPin IsInput="False" Number="3" SignalName="P2 START" SignalDescription="Pump P2 tööle"/>
+                <local:IOPin IsInput="False" Number="4" SignalName="P2 HÄIRE" SignalDescription="Pump P2 häires"/>
+                <local:IOPin IsInput="False" Number="5" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="1" Header="M-7051" Visibility="{Binding ElementName=checkbox01, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="LSA2.1" SignalDescription="Kaevu RP2 alumine nivoo" />
+                <local:IOPin IsInput="True" Number="1" SignalName="LSA2.2" SignalDescription="Kaevu RP2 keskmine nivoo"/>
+                <local:IOPin IsInput="True" Number="2" SignalName="LSA2.3" SignalDescription="Kaevu RP2 ülemine nivoo"/>
+                <local:IOPin IsInput="True" Number="3" SignalName="ISA2.1" SignalDescription="Kaev RP2 avatud"/>
+                <local:IOPin IsInput="True" Number="4" SignalName="ISA2.2" SignalDescription="TJK2 avatud"/>
+                <local:IOPin IsInput="True" Number="5" SignalName="P1 HÄIRE (6F1)" SignalDescription="Pumba P1 mootorikaitse häire"/>
+                <local:IOPin IsInput="True" Number="6" SignalName="P1 LEKE" SignalDescription="Pumba P1 veeleke"/>
+                <local:IOPin IsInput="True" Number="7" SignalName="P1 TERMO" SignalDescription="Pump P1 temperatuurihäire"/>
+                <local:IOPin IsInput="True" Number="8" SignalName="P1 AUTO" SignalDescription="Pump P1 automaatjuhtimisel"/>
+                <local:IOPin IsInput="True" Number="9" SignalName="P1 TÖÖTAB" SignalDescription="Pump P1 töötab"/>
+                <local:IOPin IsInput="True" Number="10" SignalName="P2 HÄIRE (7F1)" SignalDescription="Pumba P2 mootorikaitse häire"/>
+                <local:IOPin IsInput="True" Number="11" SignalName="P2 LEKE" SignalDescription="Pumba P2 veeleke"/>
+                <local:IOPin IsInput="True" Number="12" SignalName="P2 TERMO" SignalDescription="Pump P2 temperatuurihäire"/>
+                <local:IOPin IsInput="True" Number="13" SignalName="P2 AUTO" SignalDescription="Pump P2 automaatjuhtimisel"/>
+                <local:IOPin IsInput="True" Number="14" SignalName="P2 TÖÖTAB" SignalDescription="Pump P2 töötab"/>
+                <local:IOPin IsInput="True" Number="15" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="2" Header="M-7055" Visibility="{Binding ElementName=checkbox02, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="-" SignalDescription="" />
+                <local:IOPin IsInput="True" Number="1" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="2" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="3" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="4" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="5" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="6" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="7" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="0" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="1" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="2" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="3" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="4" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="5" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="6" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="7" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="31" Header="M-7051" Visibility="{Binding ElementName=checkbox31, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="P1 HÄIRE (6F1)" SignalDescription="Pumba P1 mootorikaitse häire" />
+                <local:IOPin IsInput="True" Number="1" SignalName="P1 TERMO" SignalDescription="Pumba P1 termokaitse häire"/>
+                <local:IOPin IsInput="True" Number="2" SignalName="P1 AUTO" SignalDescription="Pump P1 automaatjuhtimisel"/>
+                <local:IOPin IsInput="True" Number="3" SignalName="P1 TÖÖTAB" SignalDescription="Pump P1 töötab"/>
+                <local:IOPin IsInput="True" Number="4" SignalName="P2 HÄIRE (7F1)" SignalDescription="Pumba P2 mootorikaitse häire"/>
+                <local:IOPin IsInput="True" Number="5" SignalName="P2 TERMO" SignalDescription="Pumba P2 termokaitse häire"/>
+                <local:IOPin IsInput="True" Number="6" SignalName="P2 AUTO" SignalDescription="Pump P2 automaatjuhtimisel"/>
+                <local:IOPin IsInput="True" Number="7" SignalName="P2 TÖÖTAB" SignalDescription="Pump P2 töötab"/>
+                <local:IOPin IsInput="True" Number="8" SignalName="TVS1" SignalDescription="Liigpingepiirik TVS1 rakendunud"/>
+                <local:IOPin IsInput="True" Number="9" SignalName="TVS2" SignalDescription="Liigpingepiirik TVS2 rakendunud"/>
+                <local:IOPin IsInput="True" Number="10" SignalName="LSA3.1" SignalDescription="Pumpla madal nivoo"/>
+                <local:IOPin IsInput="True" Number="11" SignalName="LSA3.2" SignalDescription="Pumpla keskmine nivoo"/>
+                <local:IOPin IsInput="True" Number="12" SignalName="LSA3.3" SignalDescription="Pumpla kõrge nivoo"/>
+                <local:IOPin IsInput="True" Number="13" SignalName="ISA3.1" SignalDescription="Kaevu luuk avatud"/>
+                <local:IOPin IsInput="True" Number="14" SignalName="ISA3.2" SignalDescription="Kilbi uks avatud"/>
+                <local:IOPin IsInput="True" Number="15" SignalName="FQI3.1" SignalDescription="Veekulu"/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="32" Header="M-7055" Visibility="{Binding ElementName=checkbox32, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="-" SignalDescription="" />
+                <local:IOPin IsInput="True" Number="1" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="2" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="3" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="4" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="5" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="6" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="7" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="0" SignalName="P1 START" SignalDescription="Pump P1 tööle"/>
+                <local:IOPin IsInput="False" Number="1" SignalName="P1 HÄIRE" SignalDescription="Pumba P1 häire"/>
+                <local:IOPin IsInput="False" Number="2" SignalName="P2 START" SignalDescription="Pump P2 tööle"/>
+                <local:IOPin IsInput="False" Number="3" SignalName="P2 HÄIRE" SignalDescription="Pumba P2 häire"/>
+                <local:IOPin IsInput="False" Number="4" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="5" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="6" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="7" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="51" Header="M-7055" Visibility="{Binding ElementName=checkbox51, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="P1 HÄIRE (6F1)" SignalDescription="Pumba P1 mootorikaitse häire" />
+                <local:IOPin IsInput="True" Number="1" SignalName="P1 TERMO" SignalDescription="Pumba P1 termokaitse häire"/>
+                <local:IOPin IsInput="True" Number="2" SignalName="P1 AUTO" SignalDescription="Pump P1 automaatjuhtimisel"/>
+                <local:IOPin IsInput="True" Number="3" SignalName="P1 TÖÖTAB" SignalDescription="Pump P1 töötab"/>
+                <local:IOPin IsInput="True" Number="4" SignalName="P1 LEKE" SignalDescription="Pump P1 veeleke"/>
+                <local:IOPin IsInput="True" Number="5" SignalName="P2 HÄIRE (7F1)" SignalDescription="Pumba P2 mootorikaitse häire"/>
+                <local:IOPin IsInput="True" Number="6" SignalName="P2 TERMO" SignalDescription="Pumba P2 termokaitse häire"/>
+                <local:IOPin IsInput="True" Number="7" SignalName="P2 AUTO" SignalDescription="Pump P2 automaatjuhtimisel"/>
+                <local:IOPin IsInput="False" Number="0" SignalName="P1 START" SignalDescription="Pump P1 tööle"/>
+                <local:IOPin IsInput="False" Number="1" SignalName="P1 HÄIRE" SignalDescription="Pumba P1 häire"/>
+                <local:IOPin IsInput="False" Number="2" SignalName="P2 START" SignalDescription="Pump P2 tööle"/>
+                <local:IOPin IsInput="False" Number="3" SignalName="P2 HÄIRE" SignalDescription="Pumba P2 häire"/>
+                <local:IOPin IsInput="False" Number="4" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="5" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="6" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="False" Number="7" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="52" Header="M-7051" Visibility="{Binding ElementName=checkbox52, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="P2 TÖÖTAB" SignalDescription="Pump P2 töötab" />
+                <local:IOPin IsInput="True" Number="1" SignalName="P2 LEKE" SignalDescription="Pump P2 veeleke"/>
+                <local:IOPin IsInput="True" Number="2" SignalName="TVS1" SignalDescription="Liigpingepiirik TVS1 rakendunud"/>
+                <local:IOPin IsInput="True" Number="3" SignalName="TVS2" SignalDescription="Liigpingepiirik TVS2 rakendunud"/>
+                <local:IOPin IsInput="True" Number="4" SignalName="LSA5.1" SignalDescription="Pumpla madal nivoo"/>
+                <local:IOPin IsInput="True" Number="5" SignalName="LSA5.2" SignalDescription="Pumpla keskmine nivoo"/>
+                <local:IOPin IsInput="True" Number="6" SignalName="LSA5.3" SignalDescription="Pumpla kõrge nivoo"/>
+                <local:IOPin IsInput="True" Number="7" SignalName="LSA5.4" SignalDescription="Pumpla kriitiliselt kõrge nivoo"/>
+                <local:IOPin IsInput="True" Number="8" SignalName="ISA5.1" SignalDescription="Kaevu luuk avatud"/>
+                <local:IOPin IsInput="True" Number="9" SignalName="ISA5.2" SignalDescription="Kilbi uks avatud"/>
+                <local:IOPin IsInput="True" Number="10" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="11" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="12" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="13" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="14" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="15" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="71" Header="M-7055" Visibility="{Binding ElementName=checkbox71, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="-" />
+                <local:IOPin IsInput="True" Number="1" SignalName="-" />
+                <local:IOPin IsInput="True" Number="2" SignalName="-" />
+                <local:IOPin IsInput="True" Number="3" SignalName="-" />
+                <local:IOPin IsInput="True" Number="4" SignalName="-" />
+                <local:IOPin IsInput="True" Number="5" SignalName="-" />
+                <local:IOPin IsInput="True" Number="6" SignalName="-" />
+                <local:IOPin IsInput="True" Number="7" SignalName="-" />
+                <local:IOPin Number="0" SignalName="P1 START" SignalDescription="Pump P1 tööle" />
+                <local:IOPin Number="1" SignalName="P1 HÄIRE" SignalDescription="Pumba P1 häire"/>
+                <local:IOPin Number="2" SignalName="P2 START" SignalDescription=""/>
+                <local:IOPin Number="3" SignalName="P2 HÄIRE" SignalDescription=""/>
+                <local:IOPin Number="4" SignalName="P3 START" SignalDescription=""/>
+                <local:IOPin Number="5" SignalName="P3 HÄIRE" SignalDescription=""/>
+                <local:IOPin Number="6" SignalName="" SignalDescription=""/>
+                <local:IOPin Number="7" SignalName="" SignalDescription=""/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="72" Header="M-7051" Visibility="{Binding ElementName=checkbox72, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="P1 HÄIRE (6F1)" SignalDescription="Pumba P1 mootorikaitse häire" />
+                <local:IOPin IsInput="True" Number="1" SignalName="P1 TERMO" SignalDescription="Pumba P1 termokaitse häire" />
+                <local:IOPin IsInput="True" Number="2" SignalName="P1 AUTO" SignalDescription="Pump P1 automaatjuhtimisel" />
+                <local:IOPin IsInput="True" Number="3" SignalName="P1 TÖÖTAB" SignalDescription="Pump P1 töötab" />
+                <local:IOPin IsInput="True" Number="4" SignalName="P1 LEKE" SignalDescription="Pump P1 veeleke" />
+                <local:IOPin IsInput="True" Number="5" SignalName="P2 HÄIRE (7F1)" SignalDescription="Pumba P2 mootorikaitse häire" />
+                <local:IOPin IsInput="True" Number="6" SignalName="P2 TERMO" SignalDescription="Pumba P2 termokaitse häire" />
+                <local:IOPin IsInput="True" Number="7" SignalName="P2 AUTO" SignalDescription="Pump P2 automaatjuhtimisel"/>
+                <local:IOPin IsInput="True" Number="8" SignalName="P2 TÖÖTAB" SignalDescription="Pump P2 töötab"/>
+                <local:IOPin IsInput="True" Number="9" SignalName="P2 LEKE" SignalDescription="Pump P2 veeleke"/>
+                <local:IOPin IsInput="True" Number="10" SignalName="P3 HÄIRE (8F1)" SignalDescription="Pumba P3 mootorikaitse häire"/>
+                <local:IOPin IsInput="True" Number="11" SignalName="P3 TERMO" SignalDescription="Pumba P3 termokaitse häire"/>
+                <local:IOPin IsInput="True" Number="12" SignalName="P3 AUTO" SignalDescription="Pump P3 automaatjuhtimisel"/>
+                <local:IOPin IsInput="True" Number="13" SignalName="P3 TÖÖTAB" SignalDescription="Pump P3 töötab"/>
+                <local:IOPin IsInput="True" Number="14" SignalName="P3 LEKE" SignalDescription="Pump P3 veeleke"/>
+                <local:IOPin IsInput="True" Number="15" SignalName="TVS1" SignalDescription="Liigpingepiirik TVS1 rakendunud"/>
+            </local:IOModuleControl>
+
+            <local:IOModuleControl Address="73" Header="M-7051" Visibility="{Binding ElementName=checkbox73, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="TVS2" SignalDescription="Liigpingepiirik TVS2 rakendunud" />
+                <local:IOPin IsInput="True" Number="1" SignalName="LSA7.1" SignalDescription="Pumpla alumine kriitiline nivoo"/>
+                <local:IOPin IsInput="True" Number="2" SignalName="LSA7.2" SignalDescription="Pumpla ülemine kriitiline nivoo"/>
+                <local:IOPin IsInput="True" Number="3" SignalName="ISA7.1" SignalDescription="Pumpla kaev avatud"/>
+                <local:IOPin IsInput="True" Number="4" SignalName="ISA7.2" SignalDescription="Pumpla kilp avatud"/>
+                <local:IOPin IsInput="True" Number="5" SignalName="LSA7.3" SignalDescription="Kaevu M2 alumine nivoo"/>
+                <local:IOPin IsInput="True" Number="6" SignalName="LSA7.4" SignalDescription="Kaevu M2 ülemine nivoo"/>
+                <local:IOPin IsInput="True" Number="7" SignalName="ISA7.3" SignalDescription="Kaev M2 avatud"/>
+                <local:IOPin IsInput="True" Number="8" SignalName="LSA7.5" SignalDescription="Kaevu M3 alumine nivoo"/>
+                <local:IOPin IsInput="True" Number="9" SignalName="LSA7.6" SignalDescription="Kaevu M3 ülemine nivoo"/>
+                <local:IOPin IsInput="True" Number="10" SignalName="ISA7.4" SignalDescription="Kaev M3 avatud"/>
+                <local:IOPin IsInput="True" Number="11" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="12" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="13" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="14" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="15" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+            <!--
+            <local:IOModuleControl Address="2" Header="M-7051" Visibility="{Binding ElementName=checkbox73, Path=IsChecked, Converter={StaticResource VisibilityOfBool}}">
+                <local:IOPin IsInput="True" Number="0" SignalName="-" SignalDescription="" />
+                <local:IOPin IsInput="True" Number="1" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="2" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="3" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="4" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="5" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="6" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="7" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="8" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="9" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="10" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="11" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="12" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="13" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="14" SignalName="-" SignalDescription=""/>
+                <local:IOPin IsInput="True" Number="15" SignalName="-" SignalDescription=""/>
+            </local:IOModuleControl>
+            -->
+            
+        </UniformGrid>
+    </DockPanel>
+</Window>

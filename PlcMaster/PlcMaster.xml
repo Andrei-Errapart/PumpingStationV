@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plcmaster>
+	<modbus port="/dev/ttyS3" baudrate="9600" />
+	<server port="5555" />
+
+	<signals>
+		<!-- PLC (device 0) inputs -->
+		<signal id="1" type="input" device="0" ioindex="0" name="LSA1.1" description="Kaevu RP1 alumine nivooandur" text0="Vees" text1="Kuival" />
+		<signal id="2" type="input" device="0" ioindex="1" name="LSA1.2" description="Kaevu RP1 ülemine nivooandur" text0="Vees" text1="Kuival"/>
+		<signal id="3" type="input" device="0" ioindex="2" name="TJK7.P3.START" description="RP7 tuletõrjepumba sisselülitamise nupp" text0="Sees" text1="Väljas"/>
+		<signal id="4" type="input" device="0" ioindex="3" name="TJK7.P3.STOP" description="RP7 tuletõrjepumba väljalülitamise nupp" text0="Sees" text1="Väljas"/>
+		<signal id="5" type="input" device="0" ioindex="4" name="TVS1" description="Liigpingepiirik TVS1" text0="Häires" text1="Korras"/>
+		<signal id="6" type="input" device="0" ioindex="5" name="TVS2" description="Liigpingepiirik TVS2" text0="Häires" text1="Korras"/>
+		<signal id="7" type="input" device="0" ioindex="6" name="U1.PHASE" description="Toitepinge faasijärjestus" text0="Vale" text1="Õige"/>
+		<signal id="8" type="input" device="0" ioindex="7" name="U1.LOW" description="Toitepinge" text0="Madal" text1="Normaalne"/>
+
+		<!-- PLC (device 0) outputs -->
+		<signal id="9" type="output" device="0" ioindex="0" name="TJK7.P3.RUN" description="RP7 tuletõrjepumba tuli" text0="Kustus" text1="Põleb" />
+		<signal id="10" type="output" device="0" ioindex="1" name="RP2.P1.RUN" description="Pump RP2:P1 juhtsignaal" text0="Seisma" text1="Tööle" startupgroup="pumps" />
+		<signal id="11" type="output" device="0" ioindex="2" name="RP2.P1.SIGNAL_ALARM"  description="Pump RP2:P1 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="12" type="output" device="0" ioindex="3" name="RP2.P2.RUN"  description="Pump RP2:P2 juhtsignaal" text0="Seisma" text1="Tööle" startupgroup="pumps" />
+		<signal id="13" type="output" device="0" ioindex="4" name="RP2.P2.SIGNAL_ALARM" description="Pump RP2:P2 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="14" type="output" device="0" ioindex="5" />
+
+		<!-- R001 inputs -->
+		<signal id="17" type="input" device="1" ioindex="0" name="LSA2.1" description="Kaevu RP2 alumine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="18" type="input" device="1" ioindex="1" name="LSA2.2" description="Kaevu RP2 keskmine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="19" type="input" device="1" ioindex="2" name="LSA2.3" description="Kaevu RP2 ülemine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="20" type="input" device="1" ioindex="3" name="ISA2.1" description="Kaev RP2" text0="Suletud" text1="Avatud" />
+		<signal id="21" type="input" device="1" ioindex="4" name="ISA2.2" description="TJK2" text0="Suletud" text1="Avatud" />
+		<signal id="22" type="input" device="1" ioindex="5" name="RP2.P1.PROTECT" description="Pumba RP2:P1 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="23" type="input" device="1" ioindex="6" name="RP2.P1.LEAK" description="Pumba RP2:P1 veetihedus" text0="Peab vett" text1="Lekib" />
+		<signal id="24" type="input" device="1" ioindex="7" name="RP2.P1.TERM" description="Pumba RP2:P1 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="25" type="input" device="1" ioindex="8" name="RP2.P1.AUTO" description="Pumba RP2:P1 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="26" type="input" device="1" ioindex="9" name="RP2.P1.RUNNING" description="Pump RP2:P1" text0="Seisab" text1="Pumpab" />
+		<signal id="27" type="input" device="1" ioindex="10" name="RP2.P2.PROTECT" description="Pumba RP2:P2 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="28" type="input" device="1" ioindex="11" name="RP2.P2.LEAK" description="Pumba RP2:P2 veetihedus" text0="Peab vett" text1="Lekib" />
+		<signal id="29" type="input" device="1" ioindex="12" name="RP2.P2.TERM" description="Pumba RP2:P2 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="30" type="input" device="1" ioindex="13" name="RP2.P2.AUTO" description="Pumba RP2:P2 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="31" type="input" device="1" ioindex="14" name="RP2.P2.RUNNING" description="Pump RP2:P2" text0="Seisab" text1="Pumpab" />
+		<signal id="32" type="input" device="1" ioindex="15" />
+
+		<!-- R002 inputs -->
+		<signal id="34" type="input" device="2" ioindex="0" />
+		<signal id="35" type="input" device="2" ioindex="1" />
+		<signal id="36" type="input" device="2" ioindex="2" />
+		<signal id="37" type="input" device="2" ioindex="3" />
+		<signal id="38" type="input" device="2" ioindex="4" />
+		<signal id="39" type="input" device="2" ioindex="5" />
+		<signal id="40" type="input" device="2" ioindex="6" />
+		<signal id="41" type="input" device="2" ioindex="7" />
+
+		<!-- R002 outputs -->
+		<signal id="42" type="output" device="2" ioindex="0" />
+		<signal id="43" type="output" device="2" ioindex="1" />
+		<signal id="44" type="output" device="2" ioindex="2" />
+		<signal id="45" type="output" device="2" ioindex="3" />
+		<signal id="46" type="output" device="2" ioindex="4" />
+		<signal id="47" type="output" device="2" ioindex="5" />
+		<signal id="48" type="output" device="2" ioindex="6" />
+		<signal id="49" type="output" device="2" ioindex="7" />
+
+		<!-- R031 inputs -->
+		<signal id="301" type="input" device="31" ioindex="0" name="RP3.P1.PROTECT" description="Pumba RP3:P1 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="302" type="input" device="31" ioindex="1" name="RP3.P1.TERM" description="Pumba RP3:P1 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="303" type="input" device="31" ioindex="2" name="RP3.P1.AUTO" description="Pumba RP3:P1 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="304" type="input" device="31" ioindex="3" name="RP3.P1.RUNNING" description="Pump RP3:P1" text0="Seisab" text1="Pumpab"/>
+		<signal id="305" type="input" device="31" ioindex="4" name="RP3.P2.PROTECT" description="Pumba RP3:P2 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="306" type="input" device="31" ioindex="5" name="RP3.P2.TERM" description="Pumba RP3:P2 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="307" type="input" device="31" ioindex="6" name="RP3.P2.AUTO" description="Pumba RP3:P2 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="308" type="input" device="31" ioindex="7" name="RP3.P2.RUNNING" description="Pump RP3:P2" text0="Seisab" text1="Pumpab" />
+		<signal id="309" type="input" device="31" ioindex="8" name="RP3.TVS1" description="Liigpingepiirik TVS1" text0="Korras" text1="Häires" />
+		<signal id="310" type="input" device="31" ioindex="9" name="RP3.TVS2" description="Liigpingepiirik TVS2" text0="Korras" text1="Häires" />
+		<signal id="311" type="input" device="31" ioindex="10" name="LSA3.1" description="Kaevu RP3 alumine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="312" type="input" device="31" ioindex="11" name="LSA3.2" description="Kaevu RP3 keskmine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="313" type="input" device="31" ioindex="12" name="LSA3.3" description="Kaevu RP3 ülemine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="314" type="input" device="31" ioindex="13" name="ISA3.1" description="Kaevu luuk" text0="Suletud" text1="Avatud" />
+		<signal id="315" type="input" device="31" ioindex="14" name="ISA3.2" description="Kilbi uks" text0="Suletud" text1="Avatud" />
+
+		<!-- R031 registers (counters) -->
+		<signal id="316" type="input_register" device="31" ioindex="15" name="FQI3.1" description="Veekulu" />
+
+		<!-- R032 inputs -->
+		<signal id="318" type="input" device="32" ioindex="0" name="LSA3.4" description="Kaevu M3.1 alumine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="319" type="input" device="32" ioindex="1" name="LSA3.5" description="Kaevu M3.1 ülemine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="320" type="input" device="32" ioindex="2" name="ISA3.3" description="Kaev M3.1" text0="Suletud" text1="Avatud" />
+		<signal id="321" type="input" device="32" ioindex="3" name="LSA3.6" description="Kaevu M3.2 alumine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="322" type="input" device="32" ioindex="4" name="LSA3.7" description="Kaevu M3.2 ülemine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="323" type="input" device="32" ioindex="5" name="ISA3.4" description="Kaev M3.2" text0="Suletud" text1="Avatud" />
+		<signal id="324" type="input" device="32" ioindex="6" />
+		<signal id="325" type="input" device="32" ioindex="7" />
+
+		<!-- R032 outputs -->
+		<signal id="326" type="output" device="32" ioindex="0" name="RP3.P1.RUN" description="Pumba RP3:P1 juhtsignaal" text0="Stopp" text1="Tööle" startupgroup="pumps" />
+		<signal id="327" type="output" device="32" ioindex="1" name="RP3.P1.SIGNAL_ALARM" description="Pumba RP3:P1 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="328" type="output" device="32" ioindex="2" name="RP3.P2.RUN" description="Pumba RP3:P2 juhtsignaal" text0="Stopp" text1="Tööle" startupgroup="pumps" />
+		<signal id="329" type="output" device="32" ioindex="3" name="RP3.P2.SIGNAL_ALARM" description="Pumba RP3:P2 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="330" type="output" device="32" ioindex="4" />
+		<signal id="331" type="output" device="32" ioindex="5" />
+		<signal id="332" type="output" device="32" ioindex="6" />
+		<signal id="333" type="output" device="32" ioindex="7" />
+
+		<!-- R051 inputs -->
+		<signal id="501" type="input" device="51" ioindex="0" name="RP5.P1.PROTECT" description="Pumba RP5:P1 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="502" type="input" device="51" ioindex="1" name="RP5.P1.TERM" description="Pumba RP5:P1 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="503" type="input" device="51" ioindex="2" name="RP5.P1.AUTO" description="Pumba RP5:P1 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="504" type="input" device="51" ioindex="3" name="RP5.P1.RUNNING" description="Pump RP5:P1" text0="Seisab" text1="Pumpab" />
+		<signal id="505" type="input" device="51" ioindex="4" name="RP5.P1.LEAK" description="Pumba RP5:P1 veetihedus" text0="Peab vett" text1="Lekib" />
+		<signal id="506" type="input" device="51" ioindex="5" name="RP5.P2.PROTECT" description="Pumba RP5:P2 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="507" type="input" device="51" ioindex="6" name="RP5.P2.TERM" description="Pumba RP5:P2 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="508" type="input" device="51" ioindex="7" name="RP5.P2.AUTO" description="Pumba RP5:P2 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+
+		<!-- R051 outputs -->
+		<signal id="509" type="output" device="51" ioindex="0" name="RP5.P1.RUN" description="Pumba RP5:P1 juhtsignaal" text0="Stopp" text1="Tööle" startupgroup="pumps" />
+		<signal id="510" type="output" device="51" ioindex="1" name="RP5.P1.SIGNAL_ALARM" description="Pumba RP5:P1 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="511" type="output" device="51" ioindex="2" name="RP5.P2.RUN" description="Pumba RP5:P2 juhtsignaal" text0="Stopp" text1="Tööle" startupgroup="pumps" />
+		<signal id="512" type="output" device="51" ioindex="3" name="RP5.P2.SIGNAL_ALARM" description="Pumba RP5:P2 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="513" type="output" device="51" ioindex="4" />
+		<signal id="514" type="output" device="51" ioindex="5" />
+		<signal id="515" type="output" device="51" ioindex="6" />
+		<signal id="516" type="output" device="51" ioindex="7" />
+
+		<!-- R052 inputs -->
+		<signal id="518" type="input" device="52" ioindex="0" name="RP5.P2.RUNNING" description="Pump RP5:P2" text0="Seisab" text1="Pumpab" />
+		<signal id="519" type="input" device="52" ioindex="1" name="RP5.P2.LEAK" description="Pumba RP5:P2 veetihedus" text0="Peab vett" text1="Lekib" />
+		<signal id="520" type="input" device="52" ioindex="2" name="RP5.TVS1" description="Liigpingepiirik TVS1" text0="Korras" text1="Häires" />
+		<signal id="521" type="input" device="52" ioindex="3" name="RP5.TVS2" description="Liigpingepiirik TVS2" text0="Korras" text1="Häires" />
+		<signal id="522" type="input" device="52" ioindex="4" name="LSA5.1" description="Kaevu RP5 madal nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="523" type="input" device="52" ioindex="5" name="LSA5.2" description="Kaevu RP5 keskmine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="524" type="input" device="52" ioindex="6" name="LSA5.3" description="Kaevu RP5 kõrge nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="525" type="input" device="52" ioindex="7" name="LSA5.4" description="Kaevu RP5 kriitiliselt kõrge nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="526" type="input" device="52" ioindex="8" name="ISA5.1" description="Kaevu luuk" text0="Suletud" text1="Avatud" />
+		<signal id="527" type="input" device="52" ioindex="9" name="ISA5.2" description="Kilbi uks" text0="Suletud" text1="Avatud" />
+		<signal id="528" type="input" device="52" ioindex="10" />
+		<signal id="529" type="input" device="52" ioindex="11" />
+		<signal id="530" type="input" device="52" ioindex="12" />
+		<signal id="531" type="input" device="52" ioindex="13" />
+		<signal id="532" type="input" device="52" ioindex="14" />
+		<signal id="533" type="input" device="52" ioindex="15" />
+
+		<!-- R071 inputs -->
+		<signal id="701" type="input" device="71" ioindex="0" />
+		<signal id="702" type="input" device="71" ioindex="1" />
+		<signal id="703" type="input" device="71" ioindex="2" />
+		<signal id="704" type="input" device="71" ioindex="3" />
+		<signal id="705" type="input" device="71" ioindex="4" />
+		<signal id="706" type="input" device="71" ioindex="5" />
+		<signal id="707" type="input" device="71" ioindex="6" />
+		<signal id="708" type="input" device="71" ioindex="7" />
+
+		<!-- R071 outputs -->
+		<signal id="709" type="output" device="71" ioindex="0" name="RP7.P1.RUN" description="Pumba RP7:P1 juhtsignaal" text0="Stopp" text1="Tööle" startupgroup="pumps" />
+		<signal id="710" type="output" device="71" ioindex="1" name="RP7.P1.SIGNAL_ALARM" description="Pumba RP7:P1 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="711" type="output" device="71" ioindex="2" name="RP7.P2.RUN" description="Pumba RP7:P2 juhtsignaal" text0="Stopp" text1="Tööle" startupgroup="pumps" />
+		<signal id="712" type="output" device="71" ioindex="3" name="RP7.P2.SIGNAL_ALARM" description="Pumba RP7:P2 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="713" type="output" device="71" ioindex="4" name="RP7.P3.RUN" description="Pumba RP7:P3 juhtsignaal" text0="Stopp" text1="Tööle" startupgroup="pumps"  />
+		<signal id="714" type="output" device="71" ioindex="5" name="RP7.P3.SIGNAL_ALARM" description="Pumba RP7:P3 alarmtuli" text0="Kustus" text1="Põleb" />
+		<signal id="715" type="output" device="71" ioindex="6" />
+		<signal id="716" type="output" device="71" ioindex="7" />
+
+		<!-- R072 inputs -->
+		<signal id="718" type="input" device="72" ioindex="0" name="RP7.P1.PROTECT" description="Pumba RP7:P1 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="719" type="input" device="72" ioindex="1" name="RP7.P1.TERM" description="Pumba RP7:P1 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="720" type="input" device="72" ioindex="2" name="RP7.P1.AUTO" description="Pumba RP7:P1 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="721" type="input" device="72" ioindex="3" name="RP7.P1.RUNNING" description="Pump RP7:P1" text0="Seisab" text1="Pumpab" />
+		<signal id="722" type="input" device="72" ioindex="4" name="RP7.P1.LEAK" description="Pumba RP7:P1 veetihedus" text0="Peab vett" text1="Lekib" />
+		<signal id="723" type="input" device="72" ioindex="5" name="RP7.P2.PROTECT" description="Pumba RP7:P2 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="724" type="input" device="72" ioindex="6" name="RP7.P2.TERM" description="Pumba RP7:P2 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="725" type="input" device="72" ioindex="7" name="RP7.P2.AUTO" description="Pumba RP7:P2 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="726" type="input" device="72" ioindex="8" name="RP7.P2.RUNNING" description="Pump RP7:P2" text0="Seisab" text1="Pumpab" />
+		<signal id="727" type="input" device="72" ioindex="9" name="RP7.P2.LEAK" description="Pumba RP7:P2 veetihedus" text0="Peab vett" text1="Lekib" />
+		<signal id="728" type="input" device="72" ioindex="10" name="RP7.P3.PROTECT" description="Pumba RP7:P3 mootorikaitse" text0="Korras" text1="Häires" />
+		<signal id="729" type="input" device="72" ioindex="11" name="RP7.P3.TERM" description="Pumba RP7:P3 temperatuur" text0="Ülekuumenenud" text1="Jahe" />
+		<signal id="730" type="input" device="72" ioindex="12" name="RP7.P3.AUTO" description="Pumba RP7:P3 rezhiim" text0="Käsijuhtimine" text1="Automaatjuhtimine" />
+		<signal id="731" type="input" device="72" ioindex="13" name="RP7.P3.RUNNING" description="Pump RP7:P3" text0="Seisab" text1="Pumpab" />
+		<signal id="732" type="input" device="72" ioindex="14" name="RP7.P3.LEAK" description="Pumba RP7:P3 veetihedus" text0="Peab vett" text1="Lekib" />
+		<signal id="733" type="input" device="72" ioindex="15" name="RP7.TVS1" description="Liigpingepiirik TVS1" text0="Korras" text1="Häires" />
+
+		<!-- R073 inputs -->
+		<signal id="735" type="input" device="73" ioindex="0" name="RP7.TVS2" description="Liigpingepiirik TVS2" text0="Korras" text1="Häires" />
+		<signal id="736" type="input" device="73" ioindex="1" name="LSA7.1" description="Kaevu RP7 alumine kriitiline nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="737" type="input" device="73" ioindex="2" name="LSA7.2" description="Kaevu RP7 ülemine nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="738" type="input" device="73" ioindex="3" name="ISA7.1" description="Pumpla kaev" text0="Suletud" text1="Avatud" />
+		<signal id="739" type="input" device="73" ioindex="4" name="ISA7.2" description="Pumpla kilp" text0="Suletud" text1="Avatud" />
+		<signal id="740" type="input" device="73" ioindex="5" name="LSA7.3" description="Kaevu M2 nivooandur" text0="Kuival" text1="Vees" />
+		<signal id="741" type="input" device="73" ioindex="6" />
+		<signal id="742" type="input" device="73" ioindex="7" name="ISA7.3" description="Kaev M2" text0="Suletud" text1="Avatud" />
+		<signal id="743" type="input" device="73" ioindex="8" />
+		<signal id="744" type="input" device="73" ioindex="9" />
+		<signal id="745" type="input" device="73" ioindex="10" />
+		<signal id="746" type="input" device="73" ioindex="11" />
+		<signal id="747" type="input" device="73" ioindex="12" />
+		<signal id="748" type="input" device="73" ioindex="13" />
+		<signal id="749" type="input" device="73" ioindex="14" />
+		<signal id="750" type="input" device="73" ioindex="15" />
+
+		<!-- RP2 muutujad. -->
+		<variable type="output" name="RP2.PUMP_SELECT" description="Järgmisena käivitatav pump" value="0" text0="P1" text1="P2" />
+		<variable type="output" name="RP2.P1.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP2.P1.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+		<variable type="output" name="RP2.P2.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP2.P2.REMOTE_RUN" value="0" text0="Seiska" text1="Käivita" />
+
+		<!-- RP3 muutujad. -->
+		<variable type="output" name="RP3.PUMP_SELECT" description="Järgmisena käivitatav pump" value="0" text0="P1" text1="P2" />
+		<variable type="output" name="RP3.P1.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP3.P1.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+		<variable type="output" name="RP3.P2.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP3.P2.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+
+		<!-- RP5 muutujad. -->
+		<variable type="output" name="RP5.PUMP_SELECT" description="Järgmisena käivitatav pump" value="0" text0="P1" text1="P2" />
+		<variable type="output" name="RP5.P1.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP5.P1.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+		<variable type="output" name="RP5.P2.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP5.P2.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+
+		<!-- RP7 muutujad. -->
+		<variable type="output" name="RP7.P1.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP7.P1.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+		<variable type="output" name="RP7.P2.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP7.P2.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+		<variable type="output" name="RP7.P3.REMOTE_CONTROL" description="Operaatori juhtimine" value="0" text0="Automaatjuhtimine" text1="Kaugjuhtimine" />
+		<variable type="output" name="RP7.P3.REMOTE_RUN" description="Operaatori käsk" value="0" text0="Seiska" text1="Käivita" />
+	</signals>
+	<schemes>
+		<scheme type="charts">
+			<group name="M2">
+				<usesignal signal="LSA7.3" />
+				<usesignal key="RUNNING" signal="RP7.P1.RUNNING" />
+			</group>
+
+			<group name="RP1">
+				<usesignal signal="LSA1.2" />
+				<usesignal signal="LSA1.1" />
+				<usesignal signal="RP5.P1.RUNNING" />
+				<usesignal signal="RP5.P2.RUNNING" />
+			</group>
+
+			<group name="RP2">
+				<usesignal signal="LSA2.3" />
+				<usesignal signal="LSA2.2" />
+				<usesignal signal="LSA2.1" />
+				<usesignal signal="RP2.P1.RUNNING" />
+				<usesignal signal="RP2.P2.RUNNING" />
+			</group>
+
+			<group name="RP3">
+				<usesignal signal="LSA3.3" />
+				<usesignal signal="LSA3.2" />
+				<usesignal signal="LSA3.1" />
+				<usesignal signal="RP3.P1.RUNNING" />
+				<usesignal signal="RP3.P2.RUNNING" />
+			</group>
+
+			<group name="RP5">
+				<usesignal signal="LSA5.4" />
+				<usesignal signal="LSA5.3" />
+				<usesignal signal="LSA5.2" />
+				<usesignal signal="LSA5.1" />
+				<usesignal key="RUNNING" signal="RP5.P1.RUNNING" />
+				<usesignal key="RUNNING" signal="RP5.P2.RUNNING" />
+			</group>
+
+			<group name="RP7">
+				<usesignal signal="LSA7.2" />
+				<usesignal signal="LSA7.1" />
+				<usesignal key="RUNNING" signal="RP7.P1.RUNNING" />
+				<usesignal key="RUNNING" signal="RP7.P2.RUNNING" />
+				<usesignal key="RUNNING" signal="RP7.P3.RUNNING" />
+			</group>
+		</scheme>
+		<scheme type="infopanel">
+			<group name="M2">
+				<usesignal signal="LSA7.3" />
+				<usesignal signal="ISA7.3" />
+			</group>
+
+			<group name="RP1">
+				<usesignal signal="LSA1.2" />
+				<usesignal signal="LSA1.1" />
+			</group>
+
+			<group name="RP2">
+				<usesignal signal="LSA2.3" />
+				<usesignal signal="LSA2.2" />
+				<usesignal signal="LSA2.1" />
+				<usesignal signal="ISA2.1" />
+				<usesignal signal="ISA2.2" />
+				<usesignal signal="TVS1" />
+				<usesignal signal="TVS2" />
+				<group name="P1">
+					<usesignal key="REMOTE_CONTROL" signal="RP2.P1.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP2.P1.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP2.P1.RUN" />
+					<usesignal key="PROTECT" signal="RP2.P1.PROTECT" />
+					<usesignal key="LEAK" signal="RP2.P1.LEAK" />
+					<usesignal key="TERM" signal="RP2.P1.TERM" />
+					<usesignal key="AUTO" signal="RP2.P1.AUTO" />
+					<usesignal key="RUNNING" signal="RP2.P1.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA2.1" />
+				</group>
+				<group name="P2">
+					<usesignal key="REMOTE_CONTROL" signal="RP2.P2.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP2.P2.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP2.P2.RUN" />
+					<usesignal key="PROTECT" signal="RP2.P2.PROTECT" />
+					<usesignal key="LEAK" signal="RP2.P2.LEAK" />
+					<usesignal key="TERM" signal="RP2.P2.TERM" />
+					<usesignal key="AUTO" signal="RP2.P2.AUTO" />
+					<usesignal key="RUNNING" signal="RP2.P2.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA2.1" />
+				</group>
+			</group>
+
+			<group name="RP3">
+				<usesignal signal="LSA3.3" />
+				<usesignal signal="LSA3.2" />
+				<usesignal signal="LSA3.1" />
+				<usesignal signal="ISA3.1" />
+				<usesignal signal="ISA3.2" />
+				<usesignal signal="FQI3.1" />
+				<usesignal signal="RP3.TVS1" />
+				<usesignal signal="RP3.TVS2" />
+				<group name="P1">
+					<usesignal key="REMOTE_CONTROL" signal="RP3.P1.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP3.P1.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP3.P1.RUN" />
+					<usesignal key="PROTECT" signal="RP3.P1.PROTECT" />
+					<usesignal key="TERM" signal="RP3.P1.TERM" />
+					<usesignal key="AUTO" signal="RP3.P1.AUTO" />
+					<usesignal key="RUNNING" signal="RP3.P1.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA3.1" />
+				</group>
+				<group name="P2">
+					<usesignal key="REMOTE_CONTROL" signal="RP3.P2.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP3.P2.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP3.P2.RUN" />
+					<usesignal key="PROTECT" signal="RP3.P2.PROTECT" />
+					<usesignal key="TERM" signal="RP3.P2.TERM" />
+					<usesignal key="AUTO" signal="RP3.P2.AUTO" />
+					<usesignal key="RUNNING" signal="RP3.P2.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA3.1" />
+				</group>
+			</group>
+
+			<group name="RP5">
+				<usesignal signal="LSA5.4" />
+				<usesignal signal="LSA5.3" />
+				<usesignal signal="LSA5.2" />
+				<usesignal signal="LSA5.1" />
+				<usesignal signal="ISA5.1" />
+				<usesignal signal="ISA5.2" />
+				<usesignal signal="RP5.TVS1" />
+				<usesignal signal="RP5.TVS2" />
+				<group name="P1">
+					<usesignal key="REMOTE_CONTROL" signal="RP5.P1.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP5.P1.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP5.P1.RUN" />
+					<usesignal key="PROTECT" signal="RP5.P1.PROTECT" />
+					<usesignal key="LEAK" signal="RP5.P1.LEAK" />
+					<usesignal key="TERM" signal="RP5.P1.TERM" />
+					<usesignal key="AUTO" signal="RP5.P1.AUTO" />
+					<usesignal key="RUNNING" signal="RP5.P1.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA5.1" />
+				</group>
+				<group name="P2">
+					<usesignal key="REMOTE_CONTROL" signal="RP5.P2.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP5.P2.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP5.P2.RUN" />
+					<usesignal key="PROTECT" signal="RP5.P2.PROTECT" />
+					<usesignal key="LEAK" signal="RP5.P2.LEAK" />
+					<usesignal key="TERM" signal="RP5.P2.TERM" />
+					<usesignal key="AUTO" signal="RP5.P2.AUTO" />
+					<usesignal key="RUNNING" signal="RP5.P2.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA5.1" />
+				</group>
+			</group>
+
+			<group name="RP7">
+				<usesignal signal="LSA7.2" />
+				<usesignal signal="LSA7.1" />
+				<usesignal signal="ISA7.1" />
+				<usesignal signal="ISA7.2" />
+				<usesignal signal="RP7.TVS1" />
+				<usesignal signal="RP7.TVS2" />
+				<usesignal signal="TJK7.P3.START" />
+				<usesignal signal="TJK7.P3.STOP" />
+				<usesignal signal="TJK7.P3.RUN" />
+				<group name="P1">
+					<usesignal key="REMOTE_CONTROL" signal="RP7.P1.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP7.P1.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP7.P1.RUN" />
+					<usesignal key="PROTECT" signal="RP7.P1.PROTECT" />
+					<usesignal key="LEAK" signal="RP7.P1.LEAK" />
+					<usesignal key="TERM" signal="RP7.P1.TERM" />
+					<usesignal key="AUTO" signal="RP7.P1.AUTO" />
+					<usesignal key="RUNNING" signal="RP7.P1.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA7.1" />
+				</group>
+				<group name="P2">
+					<usesignal key="REMOTE_CONTROL" signal="RP7.P2.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP7.P2.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP7.P2.RUN" />
+					<usesignal key="PROTECT" signal="RP7.P2.PROTECT" />
+					<usesignal key="LEAK" signal="RP7.P2.LEAK" />
+					<usesignal key="TERM" signal="RP7.P2.TERM" />
+					<usesignal key="AUTO" signal="RP7.P2.AUTO" />
+					<usesignal key="RUNNING" signal="RP7.P2.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA7.1" />
+				</group>
+				<group name="P3">
+					<usesignal key="REMOTE_CONTROL" signal="RP7.P3.REMOTE_CONTROL" />
+					<usesignal key="REMOTE_RUN" signal="RP7.P3.REMOTE_RUN" />
+					<usesignal key="RUN" signal="RP7.P3.RUN" />
+					<usesignal key="PROTECT" signal="RP7.P3.PROTECT" />
+					<usesignal key="LEAK" signal="RP7.P3.LEAK" />
+					<usesignal key="TERM" signal="RP7.P3.TERM" />
+					<usesignal key="AUTO" signal="RP7.P3.AUTO" />
+					<usesignal key="RUNNING" signal="RP7.P3.RUNNING" />
+					<usesignal key="LEVEL_LOW" signal="LSA7.1" />
+				</group>
+			</group>
+		</scheme>
+		<scheme type="workhours">
+			<group>
+				<usesignal key="RP2.P1" signal="RP2.P1.RUNNING" />
+				<usesignal key="RP2.P2" signal="RP2.P2.RUNNING" />
+				<usesignal key="RP3.P1" signal="RP3.P1.RUNNING" />
+				<usesignal key="RP3.P2" signal="RP3.P2.RUNNING" />
+				<usesignal key="RP5.P1" signal="RP5.P1.RUNNING" />
+				<usesignal key="RP5.P2" signal="RP5.P2.RUNNING" />
+				<usesignal key="RP7.P1" signal="RP7.P1.RUNNING" />
+				<usesignal key="RP7.P2" signal="RP7.P2.RUNNING" />
+				<usesignal key="RP7.P3" signal="RP7.P3.RUNNING" />
+			</group>
+		</scheme>
+		<scheme type="stations">
+			<group name="Kõik">
+				<usedevice device="" />
+				<usedevice device="0" />
+				<usedevice device="1" />
+				<usedevice device="2" />
+				<usedevice device="31" />
+				<usedevice device="32" />
+				<usedevice device="51" />
+				<usedevice device="52" />
+				<usedevice device="71" />
+				<usedevice device="72" />
+				<usedevice device="73" />
+			</group>
+			<group name="RP2">
+				<usedevice device="0" />
+				<usedevice device="1" />
+				<usedevice device="2" />
+			</group>
+			<group name="RP3">
+				<usedevice device="31" />
+				<usedevice device="32" />
+			</group>
+			<group name="RP5">
+				<usedevice device="51" />
+				<usedevice device="52" />
+			</group>
+			<group name="RP7">
+				<usedevice device="71" />
+				<usedevice device="72" />
+				<usedevice device="73" />
+			</group>
+		</scheme>
+	</schemes>
+	<program>
+		########################################################################################
+		# RP2 pumbajaam
+		# RP2 pumpadel on nüüd termokaitse.
+
+		# Alarmed?
+		RP2.P1.SIGNAL_ALARM := RP2.P1.PROTECT Or RP2.P1.LEAK Or (Not RP2.P1.TERM);
+		RP2.P2.SIGNAL_ALARM := RP2.P2.PROTECT Or RP2.P2.LEAK Or (Not RP2.P2.TERM);
+
+		# OK for the auto-mode start?
+		Var RP2.P1.AUTO_OK;
+		Var RP2.P2.AUTO_OK;
+		RP2.P1.AUTO_OK := RP2.P1.AUTO And (Not RP2.P1.REMOTE_CONTROL) And (Not RP2.P1.SIGNAL_ALARM);
+		RP2.P2.AUTO_OK := RP2.P2.AUTO And (Not RP2.P2.REMOTE_CONTROL) And (Not RP2.P2.SIGNAL_ALARM);
+
+		If LSA2.3 Then
+			# Ajame yle 22re, ruttu m6lemad pumbad v6imlema!
+			If RP2.P1.AUTO_OK Then
+				RP2.P1.RUN := True;
+			End;
+			If RP2.P2.AUTO_OK Then
+				RP2.P2.RUN := True;
+			End;
+		Else
+			If LSA2.2 Then
+				# See on stardinivoo. Kas on vaja mootorit kaivitada?
+				If (Not RP2.P1.RUN) And (Not RP2.P2.RUN) And (RP2.P1.AUTO_OK Or RP2.P2.AUTO_OK) Then
+					# Kas tuleb v6tta teine mootor, sest jooksev on k2sijuhtimisel v6i rikkis?
+					If RP2.PUMP_SELECT Then
+						RP2.PUMP_SELECT := RP2.PUMP_SELECT Xor (Not RP2.P1.AUTO_OK);
+					Else
+						RP2.PUMP_SELECT := RP2.PUMP_SELECT Xor (Not RP2.P2.AUTO_OK);
+					End;
+
+					# Kaivitame yhe mootoritest...
+					If RP2.PUMP_SELECT Then
+						RP2.P1.RUN := True;
+					Else
+						RP2.P2.RUN := True;
+					End;
+					RP2.PUMP_SELECT := Not RP2.PUMP_SELECT;
+				End;
+			Else
+				# Akki paneks mootorid yldse seisma?
+				If Not LSA2.1 Then
+					If Not RP2.P1.REMOTE_CONTROL Then
+						RP2.P1.RUN := False;
+					End;
+					If Not RP2.P2.REMOTE_CONTROL Then
+						RP2.P2.RUN := False;
+					End;
+				End;
+			End;
+		End;
+
+		# Remote control?
+		If RP2.P1.REMOTE_CONTROL Then
+			RP2.P1.RUN := RP2.P1.REMOTE_RUN;
+		End;
+		If RP2.P2.REMOTE_CONTROL Then
+			RP2.P2.RUN := RP2.P2.REMOTE_RUN;
+		End;
+
+		# Protection logic.
+		If RP2.P1.SIGNAL_ALARM Then
+			RP2.P1.RUN := False;
+		End;
+		If RP2.P2.SIGNAL_ALARM Then
+			RP2.P2.RUN := False;
+		End;
+
+		########################################################################################
+		# RP3 pumbajaam - copy/paste RP2-st.
+
+		# Alarmed?
+		RP3.P1.SIGNAL_ALARM := RP3.P1.PROTECT Or (Not RP3.P1.TERM);
+		RP3.P2.SIGNAL_ALARM := RP3.P2.PROTECT Or (Not RP3.P2.TERM);
+
+		Var RP3.P1.AUTO_OK;
+		Var RP3.P2.AUTO_OK;
+		RP3.P1.AUTO_OK := RP3.P1.AUTO And (Not RP3.P1.SIGNAL_ALARM) And (Not RP3.P1.REMOTE_CONTROL);
+		RP3.P2.AUTO_OK := RP3.P2.AUTO And (Not RP3.P2.SIGNAL_ALARM) And (Not RP3.P2.REMOTE_CONTROL);
+
+		If LSA3.3 Then
+			# Ajame yle 22re, ruttu m6lemad pumbad v6imlema!
+			If RP3.P1.AUTO_OK Then
+				RP3.P1.RUN := True;
+			End;
+			If RP3.P2.AUTO_OK Then
+				RP3.P2.RUN := True;
+			End;
+		Else
+			If LSA3.2 Then
+				# See on stardinivoo. Kas on vaja mootorit kaivitada?
+				If (Not RP3.P1.RUN) And (Not RP3.P2.RUN) And (RP3.P1.AUTO_OK Or RP3.P2.AUTO_OK) Then
+					# Kas tuleb v6tta teine mootor, sest jooksev on k2sijuhtimisel v6i rikkis?
+					If RP3.PUMP_SELECT Then
+						RP3.PUMP_SELECT := RP3.PUMP_SELECT Xor (Not RP3.P1.AUTO_OK);
+					Else
+						RP3.PUMP_SELECT := RP3.PUMP_SELECT Xor (Not RP3.P2.AUTO_OK);
+					End;
+					# Kaivitame yhe mootoritest...
+					If RP3.PUMP_SELECT Then
+						RP3.P1.RUN := True;
+					Else
+						RP3.P2.RUN := True;
+					End;
+					RP3.PUMP_SELECT := Not RP3.PUMP_SELECT;
+				End;
+			Else
+				# Akki paneks mootorid yldse seisma?
+				If Not LSA3.1 Then
+					If Not RP3.P1.REMOTE_CONTROL Then
+						RP3.P1.RUN := False;
+					End;
+					If Not RP3.P2.REMOTE_CONTROL Then
+						RP3.P2.RUN := False;
+					End;
+				End;
+			End;
+		End;
+		# Remote control?
+		If RP3.P1.REMOTE_CONTROL Then
+			RP3.P1.RUN := RP3.P1.REMOTE_RUN;
+		End;
+		If RP3.P2.REMOTE_CONTROL Then
+			RP3.P2.RUN := RP3.P2.REMOTE_RUN;
+		End;
+
+		# Protection logic
+		If RP3.P1.SIGNAL_ALARM Then
+			RP3.P1.RUN := False;
+		End;
+		If RP3.P2.SIGNAL_ALARM Then
+			RP3.P2.RUN := False;
+		End;
+
+		########################################################################################
+		# RP5 pumbajaam - copy/paste RP2-st.
+		# LSA5.2 on samal tasemel LSA7.2-ga.
+
+		# Alarmed?
+		RP5.P1.SIGNAL_ALARM := RP5.P1.PROTECT Or RP5.P1.LEAK Or (Not RP5.P1.TERM);
+		RP5.P2.SIGNAL_ALARM := RP5.P2.PROTECT Or RP5.P2.LEAK Or (Not RP5.P2.TERM);
+
+		# OK for the auto-mode start?
+		Var RP5.P1.AUTO_OK;
+		Var RP5.P2.AUTO_OK;
+		RP5.P1.AUTO_OK := RP5.P1.AUTO And (Not RP5.P1.SIGNAL_ALARM) And (Not RP5.P1.REMOTE_CONTROL);
+		RP5.P2.AUTO_OK := RP5.P2.AUTO And (Not RP5.P2.SIGNAL_ALARM) And (Not RP5.P2.REMOTE_CONTROL);
+
+		If LSA5.4 Then
+			# Ajame yle 22re, ruttu m6lemad pumbad v6imlema!
+			If RP5.P1.AUTO_OK Then
+				RP5.P1.RUN := True;
+			End;
+			If RP5.P2.AUTO_OK Then
+				RP5.P2.RUN := True;
+			End;
+		Else
+			# LSA1.1 ja LSA1.2 on inverteeritud, sellep2rast ka tagurpidi loogika.
+			# Vea t6ttu v6ib juhtuda nii, et LSA1.1 on kuival ja LSA1.2 vees. Sel juhul mootori k2ivitamisel pumpab kaevu l6hki, seda aga ei tohi lasta juhtuda.
+			If LSA7.2 And LSA1.2 And LSA5.2 Then
+				# See on stardinivoo. Kas on vaja mootorit kaivitada?
+				If (Not RP5.P1.RUN) And (Not RP5.P2.RUN) And (RP5.P1.AUTO_OK Or RP5.P2.AUTO_OK) Then
+					# Kas tuleb v6tta teine mootor, sest jooksev on k2sijuhtimisel v6i rikkis?
+					If RP5.PUMP_SELECT Then
+						# RP5.PUMP_SELECT := RP5.PUMP_SELECT Xor ((Not RP5.P1.AUTO) Or RP5.P1.PROTECT Or (Not RP5.P1.TERM) Or RP5.P1.LEAK);
+						RP5.PUMP_SELECT := RP5.PUMP_SELECT Xor (Not RP5.P1.AUTO_OK);
+					Else
+						# RP5.PUMP_SELECT := RP5.PUMP_SELECT Xor ((Not RP5.P2.AUTO) Or RP5.P2.PROTECT Or (Not RP5.P2.TERM) Or RP5.P2.LEAK);
+						RP5.PUMP_SELECT := RP5.PUMP_SELECT Xor (Not RP5.P2.AUTO_OK);
+					End;
+					# Kaivitame yhe mootoritest...
+					If RP5.PUMP_SELECT Then
+						RP5.P1.RUN := True;
+					Else
+						RP5.P2.RUN := True;
+					End;
+					RP5.PUMP_SELECT := Not RP5.PUMP_SELECT;
+				End;
+			Else
+				# Akki paneks mootorid yldse seisma?
+				If (Not LSA7.2) Or (Not LSA5.2) Or (Not LSA1.2) Then
+					If Not RP5.P1.REMOTE_CONTROL Then
+						RP5.P1.RUN := False;
+					End;
+					If Not RP5.P2.REMOTE_CONTROL Then
+						RP5.P2.RUN := False;
+					End;
+				End;
+			End;
+		End;
+
+		# Remote control?
+		If RP5.P1.REMOTE_CONTROL Then
+			RP5.P1.RUN := RP5.P1.REMOTE_RUN;
+		End;
+		If RP5.P2.REMOTE_CONTROL Then
+			RP5.P2.RUN := RP5.P2.REMOTE_RUN;
+		End;
+
+		# Protection logic.
+		If RP5.P1.SIGNAL_ALARM Then
+			RP5.P1.RUN := False;
+		End;
+		If RP5.P2.SIGNAL_ALARM Then
+			RP5.P2.RUN := False;
+		End;
+
+		########################################################################################
+		# RP7+M2
+		# Alarmed?
+		RP7.P1.SIGNAL_ALARM := RP7.P1.PROTECT Or RP7.P1.LEAK Or (Not RP7.P1.TERM);
+		RP7.P2.SIGNAL_ALARM := RP7.P2.PROTECT Or RP7.P2.LEAK Or (Not RP7.P2.TERM);
+		RP7.P3.SIGNAL_ALARM := RP7.P3.PROTECT Or RP7.P3.LEAK Or (Not RP7.P3.TERM);
+
+		# OK for auto-mode start?
+		Var RP7.P1.AUTO_OK;
+		Var RP7.P2.AUTO_OK;
+		RP7.P1.AUTO_OK := RP7.P1.AUTO And (Not RP7.P1.SIGNAL_ALARM) And (Not RP7.P1.REMOTE_CONTROL);
+		RP7.P2.AUTO_OK := RP7.P2.AUTO And (Not RP7.P2.SIGNAL_ALARM) And (Not RP7.P2.REMOTE_CONTROL);
+
+		# Automaatjuhtimine
+		If LSA7.2 And (Not LSA7.3) And RP7.P1.AUTO_OK Then
+			RP7.P1.RUN := True;
+		End;
+		If (Not LSA7.2) Or (LSA7.3) And RP7.P2.AUTO_OK Then
+			RP7.P1.RUN := False;
+		End;
+
+		# Kaugjuhtimine.
+		If RP7.P1.REMOTE_CONTROL And (Not RP7.P1.SIGNAL_ALARM) Then
+			RP7.P1.RUN := RP7.P1.REMOTE_RUN;
+		End;
+		If RP7.P2.REMOTE_CONTROL And (Not RP7.P2.SIGNAL_ALARM) Then
+			RP7.P2.RUN := RP7.P2.REMOTE_RUN;
+		End;
+		If RP7.P3.REMOTE_CONTROL Then
+			# Tuletorjepumpa saab m6lemalt poolt sisse/v2lja lylitada.
+			RP7.P3.RUN := RP7.P3.REMOTE_RUN;
+			RP7.P3.REMOTE_CONTROL := False;
+		End;
+
+		# Tuletorjepumba juhtimine.
+		If Not TJK7.P3.STOP Then
+			RP7.P3.REMOTE_RUN := False;
+			RP7.P3.RUN := False;
+		Else
+			If Not TJK7.P3.START Then
+				RP7.P3.REMOTE_RUN := True;
+				RP7.P3.RUN := True;
+			End;
+		End;
+		TJK7.P3.RUN := RP7.P3.RUNNING;
+
+		# Protection logic
+		If RP7.P1.SIGNAL_ALARM Then
+			RP7.P1.RUN := False;
+		End;
+		If RP7.P2.SIGNAL_ALARM Then
+			RP7.P2.RUN := False;
+		End;
+	</program>
+</plcmaster>
+

@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imod version="1.0.0">
+	<!-- vim: ts=4 shiftwidth=4
+	-->
+	<group name="pumping_station">
+
+		<source-channel name="imod">
+			<protocol name="HARDWARE"/>
+			<gap>0</gap>
+			<cycle>2</cycle>
+		</source-channel>
+
+		<source-channel name="m1" >
+			<protocol name="MODBUS"/>
+			<port>"COM3-9600-8N1"</port>
+			<property name="device-id" value="1" />
+			<property name="type" value="RTU" />
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+
+		<!--
+		<source-channel name="m31">
+			<protocol name="MODBUS"/>
+			<port>"C1-19200-8E1-R"</port>
+			<device-id>31</device-id>
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+
+		<source-channel name="m32">
+			<protocol name="MODBUS"/>
+			<port>"C1-19200-8E1-R"</port>
+			<device-id>32</device-id>
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+
+		<source-channel name="m51">
+			<protocol name="MODBUS"/>
+			<port>"C1-19200-8E1-R"</port>
+			<device-id>51</device-id>
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+
+		<source-channel name="m52">
+			<protocol name="MODBUS"/>
+			<port>"C1-19200-8E1-R"</port>
+			<device-id>52</device-id>
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+
+		<source-channel name="m71">
+			<protocol name="MODBUS"/>
+			<port>"C1-19200-8E1-R"</port>
+			<device-id>71</device-id>
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+
+		<source-channel name="m72">
+			<protocol name="MODBUS"/>
+			<port>"C1-19200-8E1-R"</port>
+			<device-id>72</device-id>
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+
+		<source-channel name="m73">
+			<protocol name="MODBUS"/>
+			<port>"C1-19200-8E1-R"</port>
+			<device-id>73</device-id>
+			<gap>0</gap>
+			<cycle>20</cycle>
+		</source-channel>
+		-->
+
+		<access-channel name="eth">
+			<protocol name="MODBUS"/>
+			<port>"ET-502-TCP"</port>
+			<property name="device-id" value="1" />
+		</access-channel>
+
+    	<parameter>
+    		<id>1</id>
+    		<comment>"LSA1.1"</comment>
+    		<description>"Kaevu RP1 alumine nivoo"</description>
+    		<source-channel channel-name="imod" parameter-id="DI1" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="1" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>2</id>
+    		<comment>"LSA1.2"</comment>
+    		<description>"Kaevu RP1 ülemine nivoo"</description>
+    		<source-channel channel-name="imod" parameter-id="DI2" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="2" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3</id>
+    		<comment>"TJK:P3 SISSE"</comment>
+    		<description>"RP7 tuletõrjepump 'Sisse'"</description>
+    		<source-channel channel-name="imod" parameter-id="DI3" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>4</id>
+    		<comment>"TJK:P3 VÄLJA"</comment>
+    		<description>"RP7 tuletõrjepump 'Välja'"</description>
+    		<source-channel channel-name="imod" parameter-id="DI4" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="4" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5</id>
+    		<comment>"TVS1"</comment>
+    		<description>"Liigpinge piirik TVS1 rakendunud"</description>
+    		<source-channel channel-name="imod" parameter-id="DI5" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>6</id>
+    		<comment>"TVS2"</comment>
+    		<description>"Liigpinge piirik TVS2 rakendunud"</description>
+    		<source-channel channel-name="imod" parameter-id="DI6" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="6" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7</id>
+    		<comment>"U1 FAASIHÄIRE"</comment>
+    		<description>"Toite faasijärjestus vale"</description>
+    		<source-channel channel-name="imod" parameter-id="DI7" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>8</id>
+    		<comment>"U1 ALAPINGE"</comment>
+    		<description>"Toites alapinge"</description>
+    		<source-channel channel-name="imod" parameter-id="DIW" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="8" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>9</id>
+    		<comment>"TJK:P3 TÖÖTAB"</comment>
+    		<description>"RP7 tuletõrjepump 'Töötab'"</description>
+    		<source-channel channel-name="imod" parameter-id="DO1" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="9" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>10</id>
+    		<comment>"P1 START"</comment>
+    		<description>"Pump P1 tööle"</description>
+    		<source-channel channel-name="imod" parameter-id="DO2" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="10" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>11</id>
+    		<comment>"P1 HÄIRE"</comment>
+    		<description>"Pump P1 häires"</description>
+    		<source-channel channel-name="imod" parameter-id="PO1" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="11" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>12</id>
+    		<comment>"P2 START"</comment>
+    		<description>"Pump P2 tööle"</description>
+    		<source-channel channel-name="imod" parameter-id="PO2" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="12" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>13</id>
+    		<comment>"P2 HÄIRE"</comment>
+    		<description>"Pump P2 häires"</description>
+    		<source-channel channel-name="imod" parameter-id="PO3" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="13" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>14</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="imod" parameter-id="PO4" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="14" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>101</id>
+    		<comment>"LSA2.1"</comment>
+    		<description>"Kaevu RP2 alumine nivoo"</description>
+    		<source-channel channel-name="m1" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="101" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>102</id>
+    		<comment>"LSA2.2"</comment>
+    		<description>"Kaevu RP2 keskmine nivoo"</description>
+    		<source-channel channel-name="m1" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="102" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>103</id>
+    		<comment>"LSA2.3"</comment>
+    		<description>"Kaevu RP2 ülemine nivoo"</description>
+    		<source-channel channel-name="m1" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="103" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>104</id>
+    		<comment>"ISA2.1"</comment>
+    		<description>"Kaev RP2 avatud"</description>
+    		<source-channel channel-name="m1" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="104" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>105</id>
+    		<comment>"ISA2.2"</comment>
+    		<description>"TJK2 avatud"</description>
+    		<source-channel channel-name="m1" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="105" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>106</id>
+    		<comment>"P1 HÄIRE (6F1)"</comment>
+    		<description>"Pumba P1 mootorikaitse häire"</description>
+    		<source-channel channel-name="m1" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="106" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>107</id>
+    		<comment>"P1 LEKE"</comment>
+    		<description>"Pumba P1 veeleke"</description>
+    		<source-channel channel-name="m1" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="107" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>108</id>
+    		<comment>"P1 TERMO"</comment>
+    		<description>"Pump P1 temperatuurihäire"</description>
+    		<source-channel channel-name="m1" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="108" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>109</id>
+    		<comment>"P1 AUTO"</comment>
+    		<description>"Pump P1 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m1" parameter-id="9" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="109" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>110</id>
+    		<comment>"P1 TÖÖTAB"</comment>
+    		<description>"Pump P1 töötab"</description>
+    		<source-channel channel-name="m1" parameter-id="10" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="110" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>111</id>
+    		<comment>"P2 HÄIRE (7F1)"</comment>
+    		<description>"Pumba P2 mootorikaitse häire"</description>
+    		<source-channel channel-name="m1" parameter-id="11" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="111" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>112</id>
+    		<comment>"P2 LEKE"</comment>
+    		<description>"Pumba P2 veeleke"</description>
+    		<source-channel channel-name="m1" parameter-id="12" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="112" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>113</id>
+    		<comment>"P2 TERMO"</comment>
+    		<description>"Pump P2 temperatuurihäire"</description>
+    		<source-channel channel-name="m1" parameter-id="13" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="113" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>114</id>
+    		<comment>"P2 AUTO"</comment>
+    		<description>"Pump P2 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m1" parameter-id="14" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="114" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>115</id>
+    		<comment>"P2 TÖÖTAB"</comment>
+    		<description>"Pump P2 töötab"</description>
+    		<source-channel channel-name="m1" parameter-id="15" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="115" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>116</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m1" parameter-id="16" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="116" access="READONLY"/>
+    	</parameter>
+		<!--
+    	<parameter>
+    		<id>3101</id>
+    		<comment>"P1 HÄIRE (6F1)"</comment>
+    		<description>"Pumba P1 mootorikaitse häire"</description>
+    		<source-channel channel-name="m31" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3101" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3102</id>
+    		<comment>"P1 TERMO"</comment>
+    		<description>"Pumba P1 termokaitse häire"</description>
+    		<source-channel channel-name="m31" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3102" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3103</id>
+    		<comment>"P1 AUTO"</comment>
+    		<description>"Pump P1 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m31" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3103" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3104</id>
+    		<comment>"P1 TÖÖTAB"</comment>
+    		<description>"Pump P1 töötab"</description>
+    		<source-channel channel-name="m31" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3104" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3105</id>
+    		<comment>"P2 HÄIRE (7F1)"</comment>
+    		<description>"Pumba P2 mootorikaitse häire"</description>
+    		<source-channel channel-name="m31" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3105" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3106</id>
+    		<comment>"P2 TERMO"</comment>
+    		<description>"Pumba P2 termokaitse häire"</description>
+    		<source-channel channel-name="m31" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3106" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3107</id>
+    		<comment>"P2 AUTO"</comment>
+    		<description>"Pump P2 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m31" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3107" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3108</id>
+    		<comment>"P2 AUTO"</comment>
+    		<description>"Pump P2 töötab"</description>
+    		<source-channel channel-name="m31" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3108" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3109</id>
+    		<comment>"TVS1"</comment>
+    		<description>"Liigpingepiirik TVS1 rakendunud"</description>
+    		<source-channel channel-name="m31" parameter-id="9" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3109" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3110</id>
+    		<comment>"TVS2"</comment>
+    		<description>"Liigpingepiirik TVS2 rakendunud"</description>
+    		<source-channel channel-name="m31" parameter-id="10" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3110" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3111</id>
+    		<comment>"LSA3.1"</comment>
+    		<description>"Pumpla madal nivoo"</description>
+    		<source-channel channel-name="m31" parameter-id="11" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3111" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3112</id>
+    		<comment>"LSA3.2"</comment>
+    		<description>"Pumpla keskmine nivoo"</description>
+    		<source-channel channel-name="m31" parameter-id="12" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3112" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3113</id>
+    		<comment>"LSA3.3"</comment>
+    		<description>"Pumpla kõrge nivoo"</description>
+    		<source-channel channel-name="m31" parameter-id="13" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3113" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3114</id>
+    		<comment>"ISA3.1"</comment>
+    		<description>"Kaevu luuk avatud"</description>
+    		<source-channel channel-name="m31" parameter-id="14" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3114" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3115</id>
+    		<comment>"ISA3.2"</comment>
+    		<description>"Kilbi uks avatud"</description>
+    		<source-channel channel-name="m31" parameter-id="15" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3115" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3116</id>
+    		<comment>"FQI3.1"</comment>
+    		<description>"Veekulu"</description>
+    		<source-channel channel-name="m31" parameter-id="16" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3116" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3201</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3201" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3202</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3202" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3203</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3203" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3204</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3204" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3205</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3205" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3206</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3206" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3207</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3207" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3208</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="3208" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>3209</id>
+    		<comment>"P1 START"</comment>
+    		<description>"Pump P1 tööle"</description>
+    		<source-channel channel-name="m32" parameter-id="9" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3209" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3210</id>
+    		<comment>"P1 HÄIRE"</comment>
+    		<description>"Pumba P1 häire"</description>
+    		<source-channel channel-name="m32" parameter-id="10" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3210" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3211</id>
+    		<comment>"P2 START"</comment>
+    		<description>"Pump P2 tööle"</description>
+    		<source-channel channel-name="m32" parameter-id="11" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3211" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3212</id>
+    		<comment>"P2 HÄIRE"</comment>
+    		<description>"Pumba P2 häire"</description>
+    		<source-channel channel-name="m32" parameter-id="12" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3212" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3213</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="13" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3213" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3214</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="14" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3214" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3215</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="15" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3215" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>3216</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m32" parameter-id="16" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="3216" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5101</id>
+    		<comment>"P1 HÄIRE (6F1)"</comment>
+    		<description>"Pumba P1 mootorikaitse häire"</description>
+    		<source-channel channel-name="m51" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5101" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5102</id>
+    		<comment>"P1 TERMO"</comment>
+    		<description>"Pumba P1 termokaitse häire"</description>
+    		<source-channel channel-name="m51" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5102" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5103</id>
+    		<comment>"P1 AUTO"</comment>
+    		<description>"Pump P1 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m51" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5103" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5104</id>
+    		<comment>"P1 TÖÖTAB"</comment>
+    		<description>"Pump P1 töötab"</description>
+    		<source-channel channel-name="m51" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5104" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5105</id>
+    		<comment>"P1 LEKE"</comment>
+    		<description>"Pump P1 veeleke"</description>
+    		<source-channel channel-name="m51" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5105" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5106</id>
+    		<comment>"P2 HÄIRE (7F1)"</comment>
+    		<description>"Pumba P2 mootorikaitse häire"</description>
+    		<source-channel channel-name="m51" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5106" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5107</id>
+    		<comment>"P2 TERMO"</comment>
+    		<description>"Pumba P2 termokaitse häire"</description>
+    		<source-channel channel-name="m51" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5107" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5108</id>
+    		<comment>"P2 AUTO"</comment>
+    		<description>"Pump P2 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m51" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5108" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5109</id>
+    		<comment>"P1 START"</comment>
+    		<description>"Pump P1 tööle"</description>
+    		<source-channel channel-name="m51" parameter-id="9" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5109" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5110</id>
+    		<comment>"P1 HÄIRE"</comment>
+    		<description>"Pumba P1 häire"</description>
+    		<source-channel channel-name="m51" parameter-id="10" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5110" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5111</id>
+    		<comment>"P2 START"</comment>
+    		<description>"Pump P2 tööle"</description>
+    		<source-channel channel-name="m51" parameter-id="11" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5111" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5112</id>
+    		<comment>"P2 HÄIRE"</comment>
+    		<description>"Pumba P2 häire"</description>
+    		<source-channel channel-name="m51" parameter-id="12" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5112" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5113</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m51" parameter-id="13" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5113" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5114</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m51" parameter-id="14" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5114" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5115</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m51" parameter-id="15" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5115" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5116</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m51" parameter-id="16" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="5116" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>5201</id>
+    		<comment>"P2 TÖÖTAB"</comment>
+    		<description>"Pump P2 töötab"</description>
+    		<source-channel channel-name="m52" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5201" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5202</id>
+    		<comment>"P2 LEKE"</comment>
+    		<description>"Pump P2 veeleke"</description>
+    		<source-channel channel-name="m52" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5202" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5203</id>
+    		<comment>"TVS1"</comment>
+    		<description>"Liigpingepiirik TVS1 rakendunud"</description>
+    		<source-channel channel-name="m52" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5203" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5204</id>
+    		<comment>"TVS2"</comment>
+    		<description>"Liigpingepiirik TVS2 rakendunud"</description>
+    		<source-channel channel-name="m52" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5204" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5205</id>
+    		<comment>"LSA5.1"</comment>
+    		<description>"Pumpla madal nivoo"</description>
+    		<source-channel channel-name="m52" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5205" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5206</id>
+    		<comment>"LSA5.2"</comment>
+    		<description>"Pumpla keskmine nivoo"</description>
+    		<source-channel channel-name="m52" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5206" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5207</id>
+    		<comment>"LSA5.3"</comment>
+    		<description>"Pumpla kõrge nivoo"</description>
+    		<source-channel channel-name="m52" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5207" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5208</id>
+    		<comment>"LSA5.4"</comment>
+    		<description>"Pumpla kriitiliselt kõrge nivoo"</description>
+    		<source-channel channel-name="m52" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5208" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5209</id>
+    		<comment>"ISA5.1"</comment>
+    		<description>"Kaevu luuk avatud"</description>
+    		<source-channel channel-name="m52" parameter-id="9" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5209" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5210</id>
+    		<comment>"ISA5.2"</comment>
+    		<description>"Kilbi uks avatud"</description>
+    		<source-channel channel-name="m52" parameter-id="10" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5210" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5211</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m52" parameter-id="11" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5211" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5212</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m52" parameter-id="12" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5212" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5213</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m52" parameter-id="13" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5213" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5214</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m52" parameter-id="14" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5214" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5215</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m52" parameter-id="15" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5215" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>5216</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m52" parameter-id="16" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="5216" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7101</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7101" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7102</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7102" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7103</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7103" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7104</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7104" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7105</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7105" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7106</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7106" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7107</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7107" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7108</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7108" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7109</id>
+    		<comment>"P1 START"</comment>
+    		<description>"Pump P1 tööle"</description>
+    		<source-channel channel-name="m71" parameter-id="9" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7109" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7110</id>
+    		<comment>"P1 HÄIRE"</comment>
+    		<description>"Pumba P1 häire"</description>
+    		<source-channel channel-name="m71" parameter-id="10" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7110" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7111</id>
+    		<comment>"P2 START"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="11" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7111" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7112</id>
+    		<comment>"P2 HÄIRE"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="12" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7112" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7113</id>
+    		<comment>"P3 START"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="13" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7113" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7114</id>
+    		<comment>"P3 HÄIRE"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="14" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7114" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7115</id>
+    		<comment>""</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="15" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7115" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7116</id>
+    		<comment>""</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m71" parameter-id="16" access="FULLACCESS"/>
+    		<access-channel channel-name="eth" parameter-id="7116" access="FULLACCESS"/>
+    	</parameter>
+    	<parameter>
+    		<id>7201</id>
+    		<comment>"P1 HÄIRE (6F1)"</comment>
+    		<description>"Pumba P1 mootorikaitse häire"</description>
+    		<source-channel channel-name="m72" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7201" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7202</id>
+    		<comment>"P1 TERMO"</comment>
+    		<description>"Pumba P1 termokaitse häire"</description>
+    		<source-channel channel-name="m72" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7202" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7203</id>
+    		<comment>"P1 AUTO"</comment>
+    		<description>"Pump P1 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m72" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7203" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7204</id>
+    		<comment>"P1 TÖÖTAB"</comment>
+    		<description>"Pump P1 töötab"</description>
+    		<source-channel channel-name="m72" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7204" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7205</id>
+    		<comment>"P1 LEKE"</comment>
+    		<description>"Pump P1 veeleke"</description>
+    		<source-channel channel-name="m72" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7205" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7206</id>
+    		<comment>"P2 HÄIRE (7F1)"</comment>
+    		<description>"Pumba P2 mootorikaitse häire"</description>
+    		<source-channel channel-name="m72" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7206" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7207</id>
+    		<comment>"P2 TERMO"</comment>
+    		<description>"Pumba P2 termokaitse häire"</description>
+    		<source-channel channel-name="m72" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7207" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7208</id>
+    		<comment>"P2 AUTO"</comment>
+    		<description>"Pump P2 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m72" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7208" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7209</id>
+    		<comment>"P2 TÖÖTAB"</comment>
+    		<description>"Pump P2 töötab"</description>
+    		<source-channel channel-name="m72" parameter-id="9" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7209" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7210</id>
+    		<comment>"P2 LEKE"</comment>
+    		<description>"Pump P2 veeleke"</description>
+    		<source-channel channel-name="m72" parameter-id="10" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7210" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7211</id>
+    		<comment>"P3 HÄIRE (8F1)"</comment>
+    		<description>"Pumba P3 mootorikaitse häire"</description>
+    		<source-channel channel-name="m72" parameter-id="11" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7211" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7212</id>
+    		<comment>"P3 TERMO"</comment>
+    		<description>"Pumba P3 termokaitse häire"</description>
+    		<source-channel channel-name="m72" parameter-id="12" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7212" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7213</id>
+    		<comment>"P3 AUTO"</comment>
+    		<description>"Pump P3 automaatjuhtimisel"</description>
+    		<source-channel channel-name="m72" parameter-id="13" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7213" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7214</id>
+    		<comment>"P3 TÖÖTAB"</comment>
+    		<description>"Pump P3 töötab"</description>
+    		<source-channel channel-name="m72" parameter-id="14" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7214" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7215</id>
+    		<comment>"P3 LEKE"</comment>
+    		<description>"Pump P3 veeleke"</description>
+    		<source-channel channel-name="m72" parameter-id="15" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7215" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7216</id>
+    		<comment>"TVS1"</comment>
+    		<description>"Liigpingepiirik TVS1 rakendunud"</description>
+    		<source-channel channel-name="m72" parameter-id="16" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7216" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7301</id>
+    		<comment>"TVS2"</comment>
+    		<description>"Liigpingepiirik TVS2 rakendunud"</description>
+    		<source-channel channel-name="m73" parameter-id="1" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7301" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7302</id>
+    		<comment>"LSA7.1"</comment>
+    		<description>"Pumpla alumine kriitiline nivoo"</description>
+    		<source-channel channel-name="m73" parameter-id="2" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7302" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7303</id>
+    		<comment>"LSA7.2"</comment>
+    		<description>"Pumpla ülemine kriitiline nivoo"</description>
+    		<source-channel channel-name="m73" parameter-id="3" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7303" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7304</id>
+    		<comment>"ISA7.1"</comment>
+    		<description>"Pumpla kaev avatud"</description>
+    		<source-channel channel-name="m73" parameter-id="4" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7304" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7305</id>
+    		<comment>"ISA7.2"</comment>
+    		<description>"Pumpla kilp avatud"</description>
+    		<source-channel channel-name="m73" parameter-id="5" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7305" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7306</id>
+    		<comment>"LSA7.3"</comment>
+    		<description>"Kaevu M2 alumine nivoo"</description>
+    		<source-channel channel-name="m73" parameter-id="6" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7306" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7307</id>
+    		<comment>"LSA7.4"</comment>
+    		<description>"Kaevu M2 ülemine nivoo"</description>
+    		<source-channel channel-name="m73" parameter-id="7" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7307" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7308</id>
+    		<comment>"ISA7.3"</comment>
+    		<description>"Kaev M2 avatud"</description>
+    		<source-channel channel-name="m73" parameter-id="8" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7308" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7309</id>
+    		<comment>"LSA7.5"</comment>
+    		<description>"Kaevu M3 alumine nivoo"</description>
+    		<source-channel channel-name="m73" parameter-id="9" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7309" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7310</id>
+    		<comment>"LSA7.6"</comment>
+    		<description>"Kaevu M3 ülemine nivoo"</description>
+    		<source-channel channel-name="m73" parameter-id="10" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7310" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7311</id>
+    		<comment>"ISA7.4"</comment>
+    		<description>"Kaev M3 avatud"</description>
+    		<source-channel channel-name="m73" parameter-id="11" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7311" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7312</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m73" parameter-id="12" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7312" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7313</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m73" parameter-id="13" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7313" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7314</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m73" parameter-id="14" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7314" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7315</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m73" parameter-id="15" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7315" access="READONLY"/>
+    	</parameter>
+    	<parameter>
+    		<id>7316</id>
+    		<comment>"-"</comment>
+    		<description>""</description>
+    		<source-channel channel-name="m73" parameter-id="16" access="READONLY"/>
+    		<access-channel channel-name="eth" parameter-id="7316" access="READONLY"/>
+    	</parameter>
+		-->
+	</group>
+</imod>
+
